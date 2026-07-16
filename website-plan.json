@@ -1965,8 +1965,8 @@
     "resume": ""
   },
   "architecture_trace": {
-    "raw_plan_hash": "a1550b7d2c2e19c68629018f1e979b03f498cdbf8ab3543f44328be3efb37581",
-    "normalized_plan_hash": "416d48100e8ba08ab62b02491491a04c72016f53d455101fdfcb8556a99c4704",
+    "raw_plan_hash": "66d5f648d5038decef05f9a803e1cac718e47c9a2eef15a4b710575951360386",
+    "normalized_plan_hash": "9103d19fcd73f3a657ec8911855eb5d89ed3df5c8c2aa83a68c9b41831d221a8",
     "semantic_graph_hash": "dab0d0b7b58d5329556a62b0152a30f884a78bd9abd331b7b619f947c955e6be",
     "component_tree_hash": "05bb640c3be86a24ada0312e21886a26c75898a853bbe795bea84253d4362199",
     "model_output_overwritten": false,
@@ -2555,6 +2555,33 @@
         "requested": true
       },
       {
+        "id": "recognition",
+        "label": "Recognition",
+        "purpose": "Show grounded achievements without inflating them.",
+        "visitor_question_answered": "What should I know about Recognition?",
+        "evidence_ids": [
+          "ev-68e60a1ab43e"
+        ],
+        "notes": [
+          "Reviews & Recognition \"I was pleasantly surprised by this café."
+        ],
+        "content_items": [],
+        "content_kind": "",
+        "content_mode": "editorial-text",
+        "visual_mode": "editorial-text",
+        "preferred_primitives": [
+          "metric-strip",
+          "evidence-cards",
+          "feature-row"
+        ],
+        "importance": 0.82,
+        "conversion_value": 0.5,
+        "redundancy_score": 0,
+        "include": true,
+        "reason": "Preserved from the model-authored semantic plan.",
+        "requested": true
+      },
+      {
         "id": "highlights",
         "label": "What Makes the Experience Different",
         "purpose": "Present grounded distinctions as useful trust evidence.",
@@ -2595,53 +2622,30 @@
         "requested": true
       },
       {
-        "id": "the-experience",
-        "label": "The Experience",
-        "purpose": "Turn verified atmosphere and experience details into a coherent story.",
-        "visitor_question_answered": "What will it feel like to spend time here?",
+        "id": "visual-story",
+        "label": "A Closer Look",
+        "purpose": "Use the supplied, semantically understood images to deepen the story.",
+        "visitor_question_answered": "What should I know about A Closer Look?",
         "evidence_ids": [
-          "ev-657205ea4a10",
-          "ev-1b833cd54052"
+          "ev-cf4141452b6b",
+          "ev-aea6af14271c",
+          "ev-42ce0341664e",
+          "ev-ab720a08751b"
         ],
         "notes": [
-          "The sweet potato coxinha was absolutely delicious.\" - Niedja Tenorio \"Great food, excellent service, and an incredibly pleasant atmosphere.",
-          "The tone should feel elegant, warm, modern, trustworthy, and welcoming rather than formal or exclusive."
-        ],
-        "content_items": [],
-        "content_kind": "",
-        "content_mode": "story-chapter",
-        "visual_mode": "split-media",
-        "preferred_primitives": [
-          "story-chapter",
-          "split-media",
-          "full-bleed-media"
-        ],
-        "importance": 0.84,
-        "conversion_value": 0.66,
-        "redundancy_score": 0.115,
-        "include": true,
-        "reason": "Supported by ranked evidence and a visitor intent.",
-        "requested": false
-      },
-      {
-        "id": "recognition",
-        "label": "Recognition",
-        "purpose": "Show grounded achievements without inflating them.",
-        "visitor_question_answered": "What should I know about Recognition?",
-        "evidence_ids": [
-          "ev-68e60a1ab43e"
-        ],
-        "notes": [
-          "Reviews & Recognition \"I was pleasantly surprised by this café."
+          "Coffee remains at the center of the brand, with premium beans and careful craftsmanship used across classic espresso drinks, signature cappuccinos, and seasonal specialties.",
+          "Signature Cappuccinos - Rich, carefully crafted cappuccinos that are frequently praised by guests.",
+          "Premium Espresso Beverages - Classic espresso-based drinks prepared with premium beans.",
+          "Gourmet Breakfast Selections - Refined breakfast options inspired by European café traditions."
         ],
         "content_items": [],
         "content_kind": "",
         "content_mode": "editorial-text",
         "visual_mode": "editorial-text",
         "preferred_primitives": [
-          "metric-strip",
-          "evidence-cards",
-          "feature-row"
+          "layered-card-cluster",
+          "feature-row",
+          "editorial-text"
         ],
         "importance": 0.82,
         "conversion_value": 0.5,
@@ -2693,43 +2697,39 @@
         ],
         "importance": 0.94,
         "conversion_value": 0.9,
-        "redundancy_score": 0.327,
+        "redundancy_score": 0.545,
         "include": true,
         "reason": "Supported by ranked evidence and a visitor intent.",
         "requested": false
       },
       {
-        "id": "visual-story",
-        "label": "A Closer Look",
-        "purpose": "Use the supplied, semantically understood images to deepen the story.",
-        "visitor_question_answered": "What should I know about A Closer Look?",
+        "id": "the-experience",
+        "label": "The Experience",
+        "purpose": "Turn verified atmosphere and experience details into a coherent story.",
+        "visitor_question_answered": "What will it feel like to spend time here?",
         "evidence_ids": [
-          "ev-cf4141452b6b",
-          "ev-aea6af14271c",
-          "ev-42ce0341664e",
-          "ev-ab720a08751b"
+          "ev-657205ea4a10",
+          "ev-1b833cd54052"
         ],
         "notes": [
-          "Coffee remains at the center of the brand, with premium beans and careful craftsmanship used across classic espresso drinks, signature cappuccinos, and seasonal specialties.",
-          "Signature Cappuccinos - Rich, carefully crafted cappuccinos that are frequently praised by guests.",
-          "Premium Espresso Beverages - Classic espresso-based drinks prepared with premium beans.",
-          "Gourmet Breakfast Selections - Refined breakfast options inspired by European café traditions."
+          "The sweet potato coxinha was absolutely delicious.\" - Niedja Tenorio \"Great food, excellent service, and an incredibly pleasant atmosphere.",
+          "The tone should feel elegant, warm, modern, trustworthy, and welcoming rather than formal or exclusive."
         ],
         "content_items": [],
         "content_kind": "",
-        "content_mode": "editorial-text",
-        "visual_mode": "editorial-text",
+        "content_mode": "story-chapter",
+        "visual_mode": "split-media",
         "preferred_primitives": [
-          "layered-card-cluster",
-          "feature-row",
-          "editorial-text"
+          "story-chapter",
+          "split-media",
+          "full-bleed-media"
         ],
-        "importance": 0.82,
-        "conversion_value": 0.5,
-        "redundancy_score": 0.861,
+        "importance": 0.84,
+        "conversion_value": 0.66,
+        "redundancy_score": 0.308,
         "include": true,
-        "reason": "Preserved from the model-authored semantic plan.",
-        "requested": true
+        "reason": "Supported by ranked evidence and a visitor intent.",
+        "requested": false
       }
     ],
     "selected": [
@@ -2766,6 +2766,33 @@
         "requested": true
       },
       {
+        "id": "recognition",
+        "label": "Recognition",
+        "purpose": "Show grounded achievements without inflating them.",
+        "visitor_question_answered": "What should I know about Recognition?",
+        "evidence_ids": [
+          "ev-68e60a1ab43e"
+        ],
+        "notes": [
+          "Reviews & Recognition \"I was pleasantly surprised by this café."
+        ],
+        "content_items": [],
+        "content_kind": "",
+        "content_mode": "editorial-text",
+        "visual_mode": "editorial-text",
+        "preferred_primitives": [
+          "metric-strip",
+          "evidence-cards",
+          "feature-row"
+        ],
+        "importance": 0.82,
+        "conversion_value": 0.5,
+        "redundancy_score": 0,
+        "include": true,
+        "reason": "Preserved from the model-authored semantic plan.",
+        "requested": true
+      },
+      {
         "id": "highlights",
         "label": "What Makes the Experience Different",
         "purpose": "Present grounded distinctions as useful trust evidence.",
@@ -2806,53 +2833,30 @@
         "requested": true
       },
       {
-        "id": "the-experience",
-        "label": "The Experience",
-        "purpose": "Turn verified atmosphere and experience details into a coherent story.",
-        "visitor_question_answered": "What will it feel like to spend time here?",
+        "id": "visual-story",
+        "label": "A Closer Look",
+        "purpose": "Use the supplied, semantically understood images to deepen the story.",
+        "visitor_question_answered": "What should I know about A Closer Look?",
         "evidence_ids": [
-          "ev-657205ea4a10",
-          "ev-1b833cd54052"
+          "ev-cf4141452b6b",
+          "ev-aea6af14271c",
+          "ev-42ce0341664e",
+          "ev-ab720a08751b"
         ],
         "notes": [
-          "The sweet potato coxinha was absolutely delicious.\" - Niedja Tenorio \"Great food, excellent service, and an incredibly pleasant atmosphere.",
-          "The tone should feel elegant, warm, modern, trustworthy, and welcoming rather than formal or exclusive."
-        ],
-        "content_items": [],
-        "content_kind": "",
-        "content_mode": "story-chapter",
-        "visual_mode": "split-media",
-        "preferred_primitives": [
-          "story-chapter",
-          "split-media",
-          "full-bleed-media"
-        ],
-        "importance": 0.84,
-        "conversion_value": 0.66,
-        "redundancy_score": 0.115,
-        "include": true,
-        "reason": "Supported by ranked evidence and a visitor intent.",
-        "requested": false
-      },
-      {
-        "id": "recognition",
-        "label": "Recognition",
-        "purpose": "Show grounded achievements without inflating them.",
-        "visitor_question_answered": "What should I know about Recognition?",
-        "evidence_ids": [
-          "ev-68e60a1ab43e"
-        ],
-        "notes": [
-          "Reviews & Recognition \"I was pleasantly surprised by this café."
+          "Coffee remains at the center of the brand, with premium beans and careful craftsmanship used across classic espresso drinks, signature cappuccinos, and seasonal specialties.",
+          "Signature Cappuccinos - Rich, carefully crafted cappuccinos that are frequently praised by guests.",
+          "Premium Espresso Beverages - Classic espresso-based drinks prepared with premium beans.",
+          "Gourmet Breakfast Selections - Refined breakfast options inspired by European café traditions."
         ],
         "content_items": [],
         "content_kind": "",
         "content_mode": "editorial-text",
         "visual_mode": "editorial-text",
         "preferred_primitives": [
-          "metric-strip",
-          "evidence-cards",
-          "feature-row"
+          "layered-card-cluster",
+          "feature-row",
+          "editorial-text"
         ],
         "importance": 0.82,
         "conversion_value": 0.5,
@@ -2904,43 +2908,39 @@
         ],
         "importance": 0.94,
         "conversion_value": 0.9,
-        "redundancy_score": 0.327,
+        "redundancy_score": 0.545,
         "include": true,
         "reason": "Supported by ranked evidence and a visitor intent.",
         "requested": false
       },
       {
-        "id": "visual-story",
-        "label": "A Closer Look",
-        "purpose": "Use the supplied, semantically understood images to deepen the story.",
-        "visitor_question_answered": "What should I know about A Closer Look?",
+        "id": "the-experience",
+        "label": "The Experience",
+        "purpose": "Turn verified atmosphere and experience details into a coherent story.",
+        "visitor_question_answered": "What will it feel like to spend time here?",
         "evidence_ids": [
-          "ev-cf4141452b6b",
-          "ev-aea6af14271c",
-          "ev-42ce0341664e",
-          "ev-ab720a08751b"
+          "ev-657205ea4a10",
+          "ev-1b833cd54052"
         ],
         "notes": [
-          "Coffee remains at the center of the brand, with premium beans and careful craftsmanship used across classic espresso drinks, signature cappuccinos, and seasonal specialties.",
-          "Signature Cappuccinos - Rich, carefully crafted cappuccinos that are frequently praised by guests.",
-          "Premium Espresso Beverages - Classic espresso-based drinks prepared with premium beans.",
-          "Gourmet Breakfast Selections - Refined breakfast options inspired by European café traditions."
+          "The sweet potato coxinha was absolutely delicious.\" - Niedja Tenorio \"Great food, excellent service, and an incredibly pleasant atmosphere.",
+          "The tone should feel elegant, warm, modern, trustworthy, and welcoming rather than formal or exclusive."
         ],
         "content_items": [],
         "content_kind": "",
-        "content_mode": "editorial-text",
-        "visual_mode": "editorial-text",
+        "content_mode": "story-chapter",
+        "visual_mode": "split-media",
         "preferred_primitives": [
-          "layered-card-cluster",
-          "feature-row",
-          "editorial-text"
+          "story-chapter",
+          "split-media",
+          "full-bleed-media"
         ],
-        "importance": 0.82,
-        "conversion_value": 0.5,
-        "redundancy_score": 0.861,
+        "importance": 0.84,
+        "conversion_value": 0.66,
+        "redundancy_score": 0.308,
         "include": true,
-        "reason": "Preserved from the model-authored semantic plan.",
-        "requested": true
+        "reason": "Supported by ranked evidence and a visitor intent.",
+        "requested": false
       }
     ],
     "rejected": []
@@ -3143,7 +3143,7 @@
         ],
         "importance": 0.82,
         "conversion_value": 0.5,
-        "redundancy_score": 0.861,
+        "redundancy_score": 0,
         "include": true,
         "reason": "Preserved from the model-authored semantic plan.",
         "requested": true,
@@ -3192,7 +3192,7 @@
         ],
         "importance": 0.94,
         "conversion_value": 0.9,
-        "redundancy_score": 0.327,
+        "redundancy_score": 0.545,
         "include": true,
         "reason": "Supported by ranked evidence and a visitor intent.",
         "requested": false,
@@ -3227,7 +3227,7 @@
         ],
         "importance": 0.84,
         "conversion_value": 0.66,
-        "redundancy_score": 0.115,
+        "redundancy_score": 0.308,
         "include": true,
         "reason": "Supported by ranked evidence and a visitor intent.",
         "requested": false,
@@ -3256,9 +3256,9 @@
     "category": "offering",
     "items": [
       "Coffee & Beverages",
-      "Restaurant / Café",
       "Premium Espresso Beverages",
-      "Gourmet Breakfast Selections"
+      "Gourmet Breakfast Selections",
+      "Artisan Pastries"
     ]
   },
   "cta_plan": [
