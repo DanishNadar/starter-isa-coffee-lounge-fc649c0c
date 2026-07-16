@@ -24,22 +24,23 @@
   "prompt_family": "restaurant_cafe",
   "generation_context": {
     "job_id": "e0b464f4-ad99-478f-86ed-bbc3dc5cb76a",
-    "submission_id": 46,
-    "content_hash": "f28e4579eb02f90a6ddc3fb02ed89ab718eee2d3a61b5a140742087bd66654df",
+    "created_at": "2026-07-16T01:52:42.533Z",
     "design_seed": "6e0153008632182b",
+    "content_hash": "f28e4579eb02f90a6ddc3fb02ed89ab718eee2d3a61b5a140742087bd66654df",
+    "submission_id": 46,
+    "requested_type": "company",
     "cache_namespace": "e0b464f4-ad99-478f-86ed-bbc3dc5cb76a:f28e4579eb02f90a",
     "source_manifest": {
       "primary_source_count": 1,
-      "supporting_source_count": 0,
-      "uploaded_asset_count": 9
-    },
-    "requested_type": "company",
-    "created_at": "2026-07-16T01:52:42.533Z"
+      "uploaded_asset_count": 9,
+      "supporting_source_count": 0
+    }
   },
   "verified_identity": {
     "kind": "brand",
     "name": "Isa Coffee Lounge",
     "evidence": [
+      "Isa Coffee Lounge",
       "Isa Coffee Lounge",
       "Isa Coffee Lounge"
     ]
@@ -51,10 +52,10 @@
     "allowed_people": []
   },
   "source_cleaning": {
-    "metadata_removed_count": 0
+    "metadata_removed_count": 4
   },
   "deduplication": {
-    "removed_count": 0
+    "removed_count": 2
   },
   "background_style": "gradient",
   "brand_name_color": "",
@@ -84,7 +85,18 @@
   "design_direction": {
     "color_palette": {
       "color1": "#5A3A22",
-      "color2": "#F5EFE6"
+      "color2": "#F5EFE6",
+      "semantic_tokens": {
+        "accent": "#F5EFE6",
+        "on_dark": "#ffffff",
+        "primary": "#5A3A22",
+        "on_light": "#5A3A22",
+        "corrections": [
+          "accent foreground corrected for light background"
+        ],
+        "control_focus": "#5A3A22",
+        "accent_on_light": "#5A3A22"
+      }
     },
     "typography": "Modern, readable, polished sans-serif typography with strong hierarchy.",
     "layout_style": "conversion landing page with section variety",
@@ -121,9 +133,7 @@
     "customer_reviews": [],
     "location": [],
     "hours": [],
-    "contact": [
-      "Instagram@isa.coffee.lounge"
-    ],
+    "contact": [],
     "imagery": [
       "brand",
       "food_or_atmosphere",
@@ -135,7 +145,12 @@
       "food_or_atmosphere",
       "food_or_atmosphere"
     ],
-    "links": []
+    "links": [
+      {
+        "role": "instagram",
+        "url": "https://instagram.com/isa.coffee.lounge"
+      }
+    ]
   },
   "restaurant_content": {
     "story": "Isa Coffee Lounge was created as a sophisticated destination where exceptional coffee, refined food, and meaningful conversation come together.",
@@ -148,370 +163,375 @@
     "reviews": [],
     "hours": ""
   },
-  "link_manifest": [],
+  "link_manifest": [
+    {
+      "role": "instagram",
+      "url": "https://instagram.com/isa.coffee.lounge"
+    }
+  ],
   "image_strategy": {
     "uploaded_asset_count": 9,
     "minimum_asset_usage_ratio": 0.8,
     "assets": [
       {
-        "field": "logo",
         "src": "assets/logo.png",
+        "field": "logo",
+        "scene": "The brand mark.",
+        "caption": "Isa Coffee Lounge's supplied brand mark.",
+        "subject": "Isa Coffee Lounge brand mark",
+        "alt_text": "Isa Coffee Lounge brand mark.",
+        "asset_id": "asset-149272c650",
         "mimetype": "image/png",
-        "vision_analyzed": false,
-        "importance_score": 71,
+        "priority": 71,
+        "subtitle": "",
+        "confidence": 0.48,
+        "semantic_type": "logo_or_brand_asset",
+        "possible_items": [],
         "visual_quality": {
           "width": 1254,
           "height": 1254,
           "megapixels": 1.57,
-          "resolution_score": 70,
-          "sharpness_score": 25,
+          "overall_score": 43,
           "exposure_score": 12,
-          "overall_score": 43
+          "sharpness_score": 25,
+          "resolution_score": 70
         },
-        "subject": "Isa Coffee Lounge brand mark",
-        "scene": "The brand mark.",
-        "recommended_placement": "navigation or hero brand anchor",
-        "recommended_crop": "contain the full mark without clipping",
-        "caption": "Isa Coffee Lounge's supplied brand mark.",
-        "subtitle": "",
         "visual_summary": "The brand mark.",
+        "vision_analyzed": false,
+        "importance_score": 71,
+        "recommended_crop": "contain the full mark without clipping",
         "visible_subjects": [],
-        "possible_items": [],
-        "candidate_descriptions": [
-          "The brand mark"
-        ],
-        "confidence": 0.48,
-        "priority": 71,
-        "semantic_type": "logo_or_brand_asset",
-        "alt_text": "Isa Coffee Lounge brand mark.",
         "semantic_category": "brand",
-        "asset_id": "asset-149272c650",
         "caption_validation": {
           "safe": true,
           "filename_visible": false,
           "upload_order_visible": false,
           "source": "vision_or_context"
-        }
+        },
+        "recommended_placement": "navigation or hero brand anchor",
+        "candidate_descriptions": [
+          "The brand mark"
+        ]
       },
       {
-        "field": "gallery",
         "src": "assets/gallery-5.jpg",
+        "field": "gallery",
+        "scene": "A supporting image.",
+        "caption": "A supporting image.",
+        "subject": "A supporting image",
+        "alt_text": "A supporting image.",
+        "asset_id": "asset-1ca4ce1612",
         "mimetype": "image/jpeg",
-        "vision_analyzed": false,
-        "importance_score": 60,
+        "priority": 60,
+        "subtitle": "",
+        "confidence": 0.48,
+        "semantic_type": "supporting_gallery_image",
+        "possible_items": [],
         "visual_quality": {
           "width": 1125,
           "height": 1396,
           "megapixels": 1.57,
-          "resolution_score": 70,
-          "sharpness_score": 100,
+          "overall_score": 83,
           "exposure_score": 82,
-          "overall_score": 83
+          "sharpness_score": 100,
+          "resolution_score": 70
         },
-        "subject": "A supporting image",
-        "scene": "A supporting image.",
-        "recommended_placement": "visual story near the closest semantic theme",
-        "recommended_crop": "preserve the main subject",
-        "caption": "A supporting image.",
-        "subtitle": "",
         "visual_summary": "A supporting image.",
+        "vision_analyzed": false,
+        "importance_score": 60,
+        "recommended_crop": "preserve the main subject",
         "visible_subjects": [],
-        "possible_items": [],
-        "candidate_descriptions": [
-          "A supporting image"
-        ],
-        "confidence": 0.48,
-        "priority": 60,
-        "semantic_type": "supporting_gallery_image",
-        "alt_text": "A supporting image.",
         "semantic_category": "food_or_atmosphere",
-        "asset_id": "asset-1ca4ce1612",
         "caption_validation": {
           "safe": true,
           "filename_visible": false,
           "upload_order_visible": false,
           "source": "vision_or_context"
-        }
+        },
+        "recommended_placement": "visual story near the closest semantic theme",
+        "candidate_descriptions": [
+          "A supporting image"
+        ]
       },
       {
-        "field": "gallery",
         "src": "assets/gallery-8.jpg",
+        "field": "gallery",
+        "scene": "A supporting image.",
+        "caption": "A supporting image.",
+        "subject": "A supporting image",
+        "alt_text": "A supporting image.",
+        "asset_id": "asset-e1ba70bc69",
         "mimetype": "image/jpeg",
-        "vision_analyzed": false,
-        "importance_score": 59,
+        "priority": 59,
+        "subtitle": "",
+        "confidence": 0.48,
+        "semantic_type": "supporting_gallery_image",
+        "possible_items": [],
         "visual_quality": {
           "width": 1920,
           "height": 2879,
           "megapixels": 5.53,
-          "resolution_score": 100,
-          "sharpness_score": 34,
+          "overall_score": 77,
           "exposure_score": 99,
-          "overall_score": 77
+          "sharpness_score": 34,
+          "resolution_score": 100
         },
-        "subject": "A supporting image",
-        "scene": "A supporting image.",
-        "recommended_placement": "visual story near the closest semantic theme",
-        "recommended_crop": "preserve the main subject",
-        "caption": "A supporting image.",
-        "subtitle": "",
         "visual_summary": "A supporting image.",
+        "vision_analyzed": false,
+        "importance_score": 59,
+        "recommended_crop": "preserve the main subject",
         "visible_subjects": [],
-        "possible_items": [],
-        "candidate_descriptions": [
-          "A supporting image"
-        ],
-        "confidence": 0.48,
-        "priority": 59,
-        "semantic_type": "supporting_gallery_image",
-        "alt_text": "A supporting image.",
         "semantic_category": "food_or_atmosphere",
-        "asset_id": "asset-e1ba70bc69",
         "caption_validation": {
           "safe": true,
           "filename_visible": false,
           "upload_order_visible": false,
           "source": "vision_or_context"
-        }
+        },
+        "recommended_placement": "visual story near the closest semantic theme",
+        "candidate_descriptions": [
+          "A supporting image"
+        ]
       },
       {
-        "field": "gallery",
         "src": "assets/gallery-1.jpg",
+        "field": "gallery",
+        "scene": "A supporting image.",
+        "caption": "A supporting image.",
+        "subject": "A supporting image",
+        "alt_text": "A supporting image.",
+        "asset_id": "asset-b6c875d881",
         "mimetype": "image/jpeg",
-        "vision_analyzed": false,
-        "importance_score": 56,
+        "priority": 56,
+        "subtitle": "",
+        "confidence": 0.48,
+        "semantic_type": "supporting_gallery_image",
+        "possible_items": [],
         "visual_quality": {
           "width": 1124,
           "height": 1443,
           "megapixels": 1.62,
-          "resolution_score": 71,
-          "sharpness_score": 45,
+          "overall_score": 65,
           "exposure_score": 85,
-          "overall_score": 65
+          "sharpness_score": 45,
+          "resolution_score": 71
         },
-        "subject": "A supporting image",
-        "scene": "A supporting image.",
-        "recommended_placement": "visual story near the closest semantic theme",
-        "recommended_crop": "preserve the main subject",
-        "caption": "A supporting image.",
-        "subtitle": "",
         "visual_summary": "A supporting image.",
+        "vision_analyzed": false,
+        "importance_score": 56,
+        "recommended_crop": "preserve the main subject",
         "visible_subjects": [],
-        "possible_items": [],
-        "candidate_descriptions": [
-          "A supporting image"
-        ],
-        "confidence": 0.48,
-        "priority": 56,
-        "semantic_type": "supporting_gallery_image",
-        "alt_text": "A supporting image.",
         "semantic_category": "food_or_atmosphere",
-        "asset_id": "asset-b6c875d881",
         "caption_validation": {
           "safe": true,
           "filename_visible": false,
           "upload_order_visible": false,
           "source": "vision_or_context"
-        }
+        },
+        "recommended_placement": "visual story near the closest semantic theme",
+        "candidate_descriptions": [
+          "A supporting image"
+        ]
       },
       {
-        "field": "gallery",
         "src": "assets/gallery-2.jpg",
+        "field": "gallery",
+        "scene": "A supporting image.",
+        "caption": "A supporting image.",
+        "subject": "A supporting image",
+        "alt_text": "A supporting image.",
+        "asset_id": "asset-f151f98380",
         "mimetype": "image/jpeg",
-        "vision_analyzed": false,
-        "importance_score": 55,
+        "priority": 55,
+        "subtitle": "",
+        "confidence": 0.48,
+        "semantic_type": "supporting_gallery_image",
+        "possible_items": [],
         "visual_quality": {
           "width": 1125,
           "height": 1286,
           "megapixels": 1.45,
-          "resolution_score": 67,
-          "sharpness_score": 28,
+          "overall_score": 58,
           "exposure_score": 89,
-          "overall_score": 58
+          "sharpness_score": 28,
+          "resolution_score": 67
         },
-        "subject": "A supporting image",
-        "scene": "A supporting image.",
-        "recommended_placement": "visual story near the closest semantic theme",
-        "recommended_crop": "preserve the main subject",
-        "caption": "A supporting image.",
-        "subtitle": "",
         "visual_summary": "A supporting image.",
+        "vision_analyzed": false,
+        "importance_score": 55,
+        "recommended_crop": "preserve the main subject",
         "visible_subjects": [],
-        "possible_items": [],
-        "candidate_descriptions": [
-          "A supporting image"
-        ],
-        "confidence": 0.48,
-        "priority": 55,
-        "semantic_type": "supporting_gallery_image",
-        "alt_text": "A supporting image.",
         "semantic_category": "food_or_atmosphere",
-        "asset_id": "asset-f151f98380",
         "caption_validation": {
           "safe": true,
           "filename_visible": false,
           "upload_order_visible": false,
           "source": "vision_or_context"
-        }
+        },
+        "recommended_placement": "visual story near the closest semantic theme",
+        "candidate_descriptions": [
+          "A supporting image"
+        ]
       },
       {
-        "field": "gallery",
         "src": "assets/gallery-3.jpg",
+        "field": "gallery",
+        "scene": "A supporting image.",
+        "caption": "A supporting image.",
+        "subject": "A supporting image",
+        "alt_text": "A supporting image.",
+        "asset_id": "asset-2a138863f6",
         "mimetype": "image/jpeg",
-        "vision_analyzed": false,
-        "importance_score": 54,
+        "priority": 54,
+        "subtitle": "",
+        "confidence": 0.48,
+        "semantic_type": "supporting_gallery_image",
+        "possible_items": [],
         "visual_quality": {
           "width": 1125,
           "height": 632,
           "megapixels": 0.71,
-          "resolution_score": 49,
-          "sharpness_score": 51,
+          "overall_score": 55,
           "exposure_score": 77,
-          "overall_score": 55
+          "sharpness_score": 51,
+          "resolution_score": 49
         },
-        "subject": "A supporting image",
-        "scene": "A supporting image.",
-        "recommended_placement": "visual story near the closest semantic theme",
-        "recommended_crop": "preserve the main subject",
-        "caption": "A supporting image.",
-        "subtitle": "",
         "visual_summary": "A supporting image.",
+        "vision_analyzed": false,
+        "importance_score": 54,
+        "recommended_crop": "preserve the main subject",
         "visible_subjects": [],
-        "possible_items": [],
-        "candidate_descriptions": [
-          "A supporting image"
-        ],
-        "confidence": 0.48,
-        "priority": 54,
-        "semantic_type": "supporting_gallery_image",
-        "alt_text": "A supporting image.",
         "semantic_category": "food_or_atmosphere",
-        "asset_id": "asset-2a138863f6",
         "caption_validation": {
           "safe": true,
           "filename_visible": false,
           "upload_order_visible": false,
           "source": "vision_or_context"
-        }
+        },
+        "recommended_placement": "visual story near the closest semantic theme",
+        "candidate_descriptions": [
+          "A supporting image"
+        ]
       },
       {
-        "field": "gallery",
         "src": "assets/gallery-4.jpg",
+        "field": "gallery",
+        "scene": "A supporting image.",
+        "caption": "A supporting image.",
+        "subject": "A supporting image",
+        "alt_text": "A supporting image.",
+        "asset_id": "asset-da54e632a5",
         "mimetype": "image/jpeg",
-        "vision_analyzed": false,
-        "importance_score": 54,
+        "priority": 54,
+        "subtitle": "",
+        "confidence": 0.48,
+        "semantic_type": "supporting_gallery_image",
+        "possible_items": [],
         "visual_quality": {
           "width": 1125,
           "height": 1420,
           "megapixels": 1.6,
-          "resolution_score": 70,
-          "sharpness_score": 17,
+          "overall_score": 57,
           "exposure_score": 96,
-          "overall_score": 57
+          "sharpness_score": 17,
+          "resolution_score": 70
         },
-        "subject": "A supporting image",
-        "scene": "A supporting image.",
-        "recommended_placement": "visual story near the closest semantic theme",
-        "recommended_crop": "preserve the main subject",
-        "caption": "A supporting image.",
-        "subtitle": "",
         "visual_summary": "A supporting image.",
+        "vision_analyzed": false,
+        "importance_score": 54,
+        "recommended_crop": "preserve the main subject",
         "visible_subjects": [],
-        "possible_items": [],
-        "candidate_descriptions": [
-          "A supporting image"
-        ],
-        "confidence": 0.48,
-        "priority": 54,
-        "semantic_type": "supporting_gallery_image",
-        "alt_text": "A supporting image.",
         "semantic_category": "food_or_atmosphere",
-        "asset_id": "asset-da54e632a5",
         "caption_validation": {
           "safe": true,
           "filename_visible": false,
           "upload_order_visible": false,
           "source": "vision_or_context"
-        }
+        },
+        "recommended_placement": "visual story near the closest semantic theme",
+        "candidate_descriptions": [
+          "A supporting image"
+        ]
       },
       {
-        "field": "gallery",
         "src": "assets/gallery-7.jpg",
+        "field": "gallery",
+        "scene": "A supporting image.",
+        "caption": "A supporting image.",
+        "subject": "A supporting image",
+        "alt_text": "A supporting image.",
+        "asset_id": "asset-394763d1b0",
         "mimetype": "image/jpeg",
-        "vision_analyzed": false,
-        "importance_score": 54,
+        "priority": 54,
+        "subtitle": "",
+        "confidence": 0.48,
+        "semantic_type": "supporting_gallery_image",
+        "possible_items": [],
         "visual_quality": {
           "width": 1125,
           "height": 1431,
           "megapixels": 1.61,
-          "resolution_score": 71,
-          "sharpness_score": 25,
+          "overall_score": 55,
           "exposure_score": 72,
-          "overall_score": 55
+          "sharpness_score": 25,
+          "resolution_score": 71
         },
-        "subject": "A supporting image",
-        "scene": "A supporting image.",
-        "recommended_placement": "visual story near the closest semantic theme",
-        "recommended_crop": "preserve the main subject",
-        "caption": "A supporting image.",
-        "subtitle": "",
         "visual_summary": "A supporting image.",
+        "vision_analyzed": false,
+        "importance_score": 54,
+        "recommended_crop": "preserve the main subject",
         "visible_subjects": [],
-        "possible_items": [],
-        "candidate_descriptions": [
-          "A supporting image"
-        ],
-        "confidence": 0.48,
-        "priority": 54,
-        "semantic_type": "supporting_gallery_image",
-        "alt_text": "A supporting image.",
         "semantic_category": "food_or_atmosphere",
-        "asset_id": "asset-394763d1b0",
         "caption_validation": {
           "safe": true,
           "filename_visible": false,
           "upload_order_visible": false,
           "source": "vision_or_context"
-        }
+        },
+        "recommended_placement": "visual story near the closest semantic theme",
+        "candidate_descriptions": [
+          "A supporting image"
+        ]
       },
       {
-        "field": "gallery",
         "src": "assets/gallery-6.jpg",
+        "field": "gallery",
+        "scene": "A supporting image.",
+        "caption": "A supporting image.",
+        "subject": "A supporting image",
+        "alt_text": "A supporting image.",
+        "asset_id": "asset-a3797ea881",
         "mimetype": "image/jpeg",
-        "vision_analyzed": false,
-        "importance_score": 53,
+        "priority": 53,
+        "subtitle": "",
+        "confidence": 0.48,
+        "semantic_type": "supporting_gallery_image",
+        "possible_items": [],
         "visual_quality": {
           "width": 1125,
           "height": 1403,
           "megapixels": 1.58,
-          "resolution_score": 70,
-          "sharpness_score": 22,
+          "overall_score": 50,
           "exposure_score": 56,
-          "overall_score": 50
+          "sharpness_score": 22,
+          "resolution_score": 70
         },
-        "subject": "A supporting image",
-        "scene": "A supporting image.",
-        "recommended_placement": "visual story near the closest semantic theme",
-        "recommended_crop": "preserve the main subject",
-        "caption": "A supporting image.",
-        "subtitle": "",
         "visual_summary": "A supporting image.",
+        "vision_analyzed": false,
+        "importance_score": 53,
+        "recommended_crop": "preserve the main subject",
         "visible_subjects": [],
-        "possible_items": [],
-        "candidate_descriptions": [
-          "A supporting image"
-        ],
-        "confidence": 0.48,
-        "priority": 53,
-        "semantic_type": "supporting_gallery_image",
-        "alt_text": "A supporting image.",
         "semantic_category": "food_or_atmosphere",
-        "asset_id": "asset-a3797ea881",
         "caption_validation": {
           "safe": true,
           "filename_visible": false,
           "upload_order_visible": false,
           "source": "vision_or_context"
-        }
+        },
+        "recommended_placement": "visual story near the closest semantic theme",
+        "candidate_descriptions": [
+          "A supporting image"
+        ]
       }
     ],
     "placement_rules": [
@@ -522,7 +542,7 @@
       "Use project, robotics, conference, screenshot, and media assets near the matching story section.",
       "If an image is privacy-sensitive or irrelevant, omit it only when the quality validator can explain why."
     ],
-    "customer_visual_direction": "",
+    "customer_visual_direction": "Use a polished executive profile feel: restrained luxury, authority, credibility, outcome-focused sections, and refined spacing.",
     "public_metadata_cleaned_count": 9
   },
   "site_archetype": {
@@ -594,11 +614,13 @@
       "identity": "Isa Coffee Lounge was created as a sophisticated destination where exceptional coffee, refined food, and meaningful conversation come together."
     },
     "supporting_identities": [
-      "HoursMonday through Friday"
+      "HoursMonday through Friday",
+      "Additional Skills"
     ],
     "major_themes": [
       "Projects",
-      "HoursMonday through Friday"
+      "HoursMonday through Friday",
+      "Additional Skills"
     ],
     "evidence": {
       "projects": [],
@@ -666,9 +688,7 @@
         "placement": "visual story near the closest semantic theme"
       }
     ],
-    "calls_to_action": [
-      "email"
-    ],
+    "calls_to_action": [],
     "highlight_story": {
       "category": "Projects",
       "confidence": 0.8700000000000001,
@@ -692,58 +712,59 @@
     "emphasis_terms": [
       "HoursMonday through Friday",
       "8:00 AM - 6:00 PM",
-      "closed"
+      "closed",
+      "Additional Skills"
     ],
     "section_confidence": {
       "services": 0.91,
+      "recognition": 0.82,
       "highlights": 0.74,
-      "the-experience": 0.84,
-      "recognition": 0.72,
+      "visual-story": 0.82,
       "signature-offerings": 0.94,
-      "visual-story": 0.72
+      "the-experience": 0.84
     },
     "section_sequence": [
       "hero",
       "services",
-      "highlights",
-      "the-experience",
       "recognition",
-      "signature-offerings",
+      "highlights",
       "visual-story",
+      "signature-offerings",
+      "the-experience",
       "contact"
     ],
     "section_labels": {
       "services": "Ways We Can Help",
-      "highlights": "What Makes the Experience Different",
-      "the-experience": "The Experience",
       "recognition": "Recognition",
-      "signature-offerings": "Coffee, Cuisine & Favorites",
+      "highlights": "What Makes the Experience Different",
       "visual-story": "A Closer Look",
+      "signature-offerings": "Coffee, Cuisine & Favorites",
+      "the-experience": "The Experience",
       "contact": "Visit & Connect"
     },
     "section_variants": {
       "services": "rail",
-      "highlights": "split",
-      "the-experience": "mosaic",
       "recognition": "stacked",
+      "highlights": "split",
+      "visual-story": "bento",
       "signature-offerings": "split",
-      "visual-story": "bento"
+      "the-experience": "mosaic"
     },
     "section_separators": {
       "services": "oversized-type",
-      "highlights": "none",
-      "the-experience": "fine-rule",
       "recognition": "none",
+      "highlights": "none",
+      "visual-story": "angled-plane",
       "signature-offerings": "gradient-haze",
-      "visual-story": "angled-plane"
+      "the-experience": "fine-rule"
     },
     "section_layouts": {
       "services": "list-detail",
+      "recognition": "card-grid",
       "highlights": "card-grid",
-      "the-experience": "case-study",
-      "recognition": "stat-row",
+      "visual-story": "card-grid",
       "signature-offerings": "list-detail",
-      "visual-story": "media-gallery"
+      "the-experience": "case-study"
     },
     "dynamic_sections": [
       {
@@ -765,6 +786,17 @@
         "purpose": "Turn verified services into clear, useful visitor choices."
       },
       {
+        "id": "recognition",
+        "label": "Recognition",
+        "notes": [
+          "Reviews & Recognition \"I was pleasantly surprised by this café."
+        ],
+        "content_items": [],
+        "content_kind": "",
+        "layout_hint": "card-grid",
+        "purpose": "Show grounded achievements without inflating them."
+      },
+      {
         "id": "highlights",
         "label": "What Makes the Experience Different",
         "notes": [
@@ -783,6 +815,35 @@
         "purpose": "Present grounded distinctions as useful trust evidence."
       },
       {
+        "id": "visual-story",
+        "label": "A Closer Look",
+        "notes": [
+          "Coffee remains at the center of the brand, with premium beans and careful craftsmanship used across classic espresso drinks, signature cappuccinos, and seasonal specialties.",
+          "Signature Cappuccinos - Rich, carefully crafted cappuccinos that are frequently praised by guests.",
+          "Premium Espresso Beverages - Classic espresso-based drinks prepared with premium beans.",
+          "Gourmet Breakfast Selections - Refined breakfast options inspired by European café traditions."
+        ],
+        "content_items": [],
+        "content_kind": "",
+        "layout_hint": "card-grid",
+        "purpose": "Use the supplied, semantically understood images to deepen the story."
+      },
+      {
+        "id": "signature-offerings",
+        "label": "Coffee, Cuisine & Favorites",
+        "notes": [
+          "Isa Coffee Lounge Isa Coffee Lounge Restaurant / Café .",
+          "Today, Isa is known for premium coffee, carefully prepared café dishes, attentive service, and an atmosphere guests look forward to returning to.",
+          "Artisan Pastries - Fresh pastry selections designed to pair with coffee.",
+          "The coffee was generously sized, and the atmosphere was cozy and beautifully decorated.",
+          "Isa Coffee Lounge | \"The cappuccino was outstanding, the strawberry cake melted in my mouth, and the experience exceeded my expectations.\" - Wesley Cavalcante Soares Audience, Goals & Tone The website should appeal to professionals, entrepreneurs, travelers,."
+        ],
+        "content_items": [],
+        "content_kind": "",
+        "layout_hint": "list-detail",
+        "purpose": "Synthesize the strongest verified offerings into useful choices."
+      },
+      {
         "id": "the-experience",
         "label": "The Experience",
         "notes": [
@@ -793,53 +854,12 @@
         "content_kind": "",
         "layout_hint": "case-study",
         "purpose": "Turn verified atmosphere and experience details into a coherent story."
-      },
-      {
-        "id": "recognition",
-        "label": "Recognition",
-        "notes": [
-          "Reviews & Recognition \"I was pleasantly surprised by this café."
-        ],
-        "content_items": [],
-        "content_kind": "",
-        "layout_hint": "stat-row",
-        "purpose": "Show grounded achievements without inflating them."
-      },
-      {
-        "id": "signature-offerings",
-        "label": "Coffee, Cuisine & Favorites",
-        "notes": [
-          "Isa Coffee Lounge Isa Coffee Lounge Restaurant / Café .",
-          "Today, Isa is known for premium coffee, carefully prepared café dishes, attentive service, and an atmosphere guests look forward to returning to.",
-          "Coffee remains at the center of the brand, with premium beans and careful craftsmanship used across classic espresso drinks, signature cappuccinos, and seasonal specialties.",
-          "Coffee & Beverages.",
-          "Premium Espresso Beverages - Classic espresso-based drinks prepared with premium beans.",
-          "Breakfast & Savory.",
-          "Gourmet Breakfast Selections - Refined breakfast options inspired by European café traditions.",
-          "Artisan Pastries - Fresh pastry selections designed to pair with coffee."
-        ],
-        "content_items": [],
-        "content_kind": "",
-        "layout_hint": "list-detail",
-        "purpose": "Synthesize the strongest verified offerings into useful choices."
-      },
-      {
-        "id": "visual-story",
-        "label": "A Closer Look",
-        "notes": [
-          "The brand mark.",
-          "A supporting image."
-        ],
-        "content_items": [],
-        "content_kind": "",
-        "layout_hint": "media-gallery",
-        "purpose": "Use the supplied, semantically understood images to deepen the story."
       }
     ],
     "background_zones": [
       {
-        "section": "the-experience",
-        "treatment": "aurora"
+        "section": "highlights",
+        "treatment": "soft-radial"
       }
     ],
     "five_second_story": "Specialty Coffee, Thoughtful Food, and Time Well Spent"
@@ -864,7 +884,7 @@
       "Everything Outstanding.",
       "Has Already Become Favorite"
     ],
-    "image_analysis_count": 9,
+    "image_analysis_count": 0,
     "web_enrichment": {
       "status": "not_available",
       "seed_urls": [
@@ -1038,10 +1058,9 @@
   "component_selection": [
     "catalog-group",
     "evidence-cards",
-    "story-chapter",
-    "metric-strip",
+    "layered-card-cluster",
     "feature-row",
-    "image-mosaic"
+    "story-chapter"
   ],
   "motion_plan": [
     "subtle button hover lift, maximum two pixels",
@@ -1119,15 +1138,6 @@
       "source": "uploaded source material"
     },
     {
-      "fact": "Coffee & Beverages.",
-      "evidence_excerpt": "Coffee & Beverages.",
-      "category": "general",
-      "confidence": 1,
-      "importance": 0.5,
-      "public": true,
-      "source": "uploaded source material"
-    },
-    {
       "fact": "Signature Cappuccinos - Rich, carefully crafted cappuccinos that are frequently praised by guests.",
       "evidence_excerpt": "Signature Cappuccinos - Rich, carefully crafted cappuccinos that are frequently praised by guests.",
       "category": "general",
@@ -1141,16 +1151,7 @@
       "evidence_excerpt": "Premium Espresso Beverages - Classic espresso-based drinks prepared with premium beans.",
       "category": "general",
       "confidence": 1,
-      "importance": 0.6,
-      "public": true,
-      "source": "uploaded source material"
-    },
-    {
-      "fact": "Breakfast & Savory.",
-      "evidence_excerpt": "Breakfast & Savory.",
-      "category": "general",
-      "confidence": 1,
-      "importance": 0.5,
+      "importance": 0.61,
       "public": true,
       "source": "uploaded source material"
     },
@@ -1159,7 +1160,7 @@
       "evidence_excerpt": "Gourmet Breakfast Selections - Refined breakfast options inspired by European café traditions.",
       "category": "general",
       "confidence": 1,
-      "importance": 0.59,
+      "importance": 0.6,
       "public": true,
       "source": "uploaded source material"
     },
@@ -1168,7 +1169,7 @@
       "evidence_excerpt": "Sweet Potato Coxinha - A distinctive savory favorite praised for its flavor.",
       "category": "general",
       "confidence": 1,
-      "importance": 0.59,
+      "importance": 0.6,
       "public": true,
       "source": "uploaded source material"
     },
@@ -1177,7 +1178,7 @@
       "evidence_excerpt": "Pastries & Desserts.",
       "category": "general",
       "confidence": 1,
-      "importance": 0.5,
+      "importance": 0.59,
       "public": true,
       "source": "uploaded source material"
     },
@@ -1186,7 +1187,7 @@
       "evidence_excerpt": "Artisan Pastries - Fresh pastry selections designed to pair with coffee.",
       "category": "general",
       "confidence": 1,
-      "importance": 0.57,
+      "importance": 0.59,
       "public": true,
       "source": "uploaded source material"
     },
@@ -1195,7 +1196,7 @@
       "evidence_excerpt": "Strawberry Cake - A soft, memorable dessert that guests describe as melting in the mouth.",
       "category": "general",
       "confidence": 1,
-      "importance": 0.57,
+      "importance": 0.58,
       "public": true,
       "source": "uploaded source material"
     },
@@ -1204,7 +1205,7 @@
       "evidence_excerpt": "Reviews & Recognition \"I was pleasantly surprised by this café.",
       "category": "achievement",
       "confidence": 1,
-      "importance": 0.56,
+      "importance": 0.57,
       "public": true,
       "source": "uploaded source material"
     },
@@ -1213,7 +1214,7 @@
       "evidence_excerpt": "The coffee was generously sized, and the atmosphere was cozy and beautifully decorated.",
       "category": "general",
       "confidence": 1,
-      "importance": 0.56,
+      "importance": 0.57,
       "public": true,
       "source": "uploaded source material"
     },
@@ -1222,7 +1223,7 @@
       "evidence_excerpt": "The sweet potato coxinha was absolutely delicious.\" - Niedja Tenorio \"Great food, excellent service, and an incredibly pleasant atmosphere.",
       "category": "service_or_product",
       "confidence": 1,
-      "importance": 0.55,
+      "importance": 0.56,
       "public": true,
       "source": "uploaded source material"
     },
@@ -1231,7 +1232,7 @@
       "evidence_excerpt": "Everything is outstanding.",
       "category": "general",
       "confidence": 1,
-      "importance": 0.55,
+      "importance": 0.56,
       "public": true,
       "source": "uploaded source material"
     },
@@ -1239,8 +1240,8 @@
       "fact": "It has already become my favorite place.\" - Sarah Noemi.",
       "evidence_excerpt": "It has already become my favorite place.\" - Sarah Noemi.",
       "category": "general",
-      "confidence": 1,
-      "importance": 0.5,
+      "confidence": 0.9,
+      "importance": 0.55,
       "public": true,
       "source": "uploaded source material"
     },
@@ -1249,7 +1250,7 @@
       "evidence_excerpt": "Isa Coffee Lounge | \"The cappuccino was outstanding, the strawberry cake melted in my mouth, and the experience exceeded my expectations.\" - Wesley Cavalcante Soares Audience, Goals & Tone The website should appeal to.",
       "category": "general",
       "confidence": 1,
-      "importance": 0.54,
+      "importance": 0.55,
       "public": true,
       "source": "uploaded source material"
     },
@@ -1258,7 +1259,7 @@
       "evidence_excerpt": "The primary actions should be to view the menu, confirm hours and location, visit the café, follow Isa on Instagram, and learn about the brand's planned expansion to New York City.",
       "category": "general",
       "confidence": 1,
-      "importance": 0.53,
+      "importance": 0.54,
       "public": true,
       "source": "uploaded source material"
     },
@@ -1267,7 +1268,7 @@
       "evidence_excerpt": "The tone should feel elegant, warm, modern, trustworthy, and welcoming rather than formal or exclusive.",
       "category": "general",
       "confidence": 1,
-      "importance": 0.53,
+      "importance": 0.54,
       "public": true,
       "source": "uploaded source material"
     },
@@ -1275,8 +1276,8 @@
       "fact": "Visual Assets Checklist.",
       "evidence_excerpt": "Visual Assets Checklist.",
       "category": "general",
-      "confidence": 1,
-      "importance": 0.5,
+      "confidence": 0.8,
+      "importance": 0.53,
       "public": true,
       "source": "uploaded source material"
     },
@@ -1285,7 +1286,7 @@
       "evidence_excerpt": "Logo: The official Isa Coffee Lounge logo in high-resolution transparent PNG and vector formats.",
       "category": "general",
       "confidence": 1,
-      "importance": 0.52,
+      "importance": 0.53,
       "public": true,
       "source": "uploaded source material"
     },
@@ -1294,7 +1295,7 @@
       "evidence_excerpt": "Coffee photography: Signature cappuccinos, espresso beverages, and seasonal specialties.",
       "category": "general",
       "confidence": 1,
-      "importance": 0.51,
+      "importance": 0.52,
       "public": true,
       "source": "uploaded source material"
     },
@@ -1303,7 +1304,7 @@
       "evidence_excerpt": "cake, and handcrafted desserts.",
       "category": "general",
       "confidence": 1,
-      "importance": 0.51,
+      "importance": 0.52,
       "public": true,
       "source": "uploaded source material"
     }
@@ -1315,10 +1316,8 @@
     "Its concept combines Portuguese, Spanish, and French culinary inspiration with the warmth of Brazilian hospitality.",
     "Today, Isa is known for premium coffee, carefully prepared café dishes, attentive service, and an atmosphere guests look forward to returning to.",
     "Coffee remains at the center of the brand, with premium beans and careful craftsmanship used across classic espresso drinks, signature cappuccinos, and seasonal specialties.",
-    "Coffee & Beverages.",
     "Signature Cappuccinos - Rich, carefully crafted cappuccinos that are frequently praised by guests.",
     "Premium Espresso Beverages - Classic espresso-based drinks prepared with premium beans.",
-    "Breakfast & Savory.",
     "Gourmet Breakfast Selections - Refined breakfast options inspired by European café traditions.",
     "Sweet Potato Coxinha - A distinctive savory favorite praised for its flavor.",
     "Pastries & Desserts.",
@@ -1346,6 +1345,13 @@
         "8:00 AM - 6:00 PM",
         "closed"
       ]
+    },
+    {
+      "name": "Additional Skills",
+      "items": [
+        "8:00 AM - 6:00 PM",
+        "closed"
+      ]
     }
   ],
   "service_cards": [
@@ -1362,7 +1368,7 @@
       "title": "Located in Recife's thriving business district, the café welcomes professionals,...",
       "description": "Located in Recife's thriving business district, the café welcomes professionals, entrepreneurs, travelers, and local guests into a warm, elegant setting designed for breakfast, meetings, focused work, relaxation, and social gatherings.",
       "details": [
-        "Located in Recife's thriving business district, the café welcomes professionals, entrepreneurs, travelers, and local guests into a warm, elegant setting designed for breakfast, meetings, focused work, relaxation, and."
+        "Located in Recife's thriving business district, the café welcomes professionals, entrepreneurs, travelers, and local guests into a warm, elegant setting designed for breakfast,..."
       ],
       "evidence_excerpt": "Located in Recife's thriving business district, the café welcomes professionals, entrepreneurs, travelers, and local guests into a warm, elegant setting designed for breakfast, meetings, focused work, relaxation, and."
     },
@@ -1397,366 +1403,366 @@
     "headshot": [],
     "logo": [
       {
-        "field": "logo",
         "src": "assets/logo.png",
+        "field": "logo",
+        "scene": "The brand mark.",
+        "caption": "Isa Coffee Lounge's supplied brand mark.",
+        "subject": "Isa Coffee Lounge brand mark",
+        "alt_text": "Isa Coffee Lounge brand mark.",
+        "asset_id": "asset-149272c650",
         "mimetype": "image/png",
-        "vision_analyzed": false,
-        "importance_score": 71,
+        "priority": 71,
+        "subtitle": "",
+        "confidence": 0.48,
+        "semantic_type": "logo_or_brand_asset",
+        "possible_items": [],
         "visual_quality": {
           "width": 1254,
           "height": 1254,
           "megapixels": 1.57,
-          "resolution_score": 70,
-          "sharpness_score": 25,
+          "overall_score": 43,
           "exposure_score": 12,
-          "overall_score": 43
+          "sharpness_score": 25,
+          "resolution_score": 70
         },
-        "subject": "Isa Coffee Lounge brand mark",
-        "scene": "The brand mark.",
-        "recommended_placement": "navigation or hero brand anchor",
-        "recommended_crop": "contain the full mark without clipping",
-        "caption": "Isa Coffee Lounge's supplied brand mark.",
-        "subtitle": "",
         "visual_summary": "The brand mark.",
+        "vision_analyzed": false,
+        "importance_score": 71,
+        "recommended_crop": "contain the full mark without clipping",
         "visible_subjects": [],
-        "possible_items": [],
-        "candidate_descriptions": [
-          "The brand mark"
-        ],
-        "confidence": 0.48,
-        "priority": 71,
-        "semantic_type": "logo_or_brand_asset",
-        "alt_text": "Isa Coffee Lounge brand mark.",
         "semantic_category": "brand",
-        "asset_id": "asset-149272c650",
         "caption_validation": {
           "safe": true,
           "filename_visible": false,
           "upload_order_visible": false,
           "source": "vision_or_context"
-        }
+        },
+        "recommended_placement": "navigation or hero brand anchor",
+        "candidate_descriptions": [
+          "The brand mark"
+        ]
       }
     ],
     "gallery": [
       {
-        "field": "gallery",
         "src": "assets/gallery-5.jpg",
+        "field": "gallery",
+        "scene": "A supporting image.",
+        "caption": "A supporting image.",
+        "subject": "A supporting image",
+        "alt_text": "A supporting image.",
+        "asset_id": "asset-1ca4ce1612",
         "mimetype": "image/jpeg",
-        "vision_analyzed": false,
-        "importance_score": 60,
+        "priority": 60,
+        "subtitle": "",
+        "confidence": 0.48,
+        "semantic_type": "supporting_gallery_image",
+        "possible_items": [],
         "visual_quality": {
           "width": 1125,
           "height": 1396,
           "megapixels": 1.57,
-          "resolution_score": 70,
-          "sharpness_score": 100,
+          "overall_score": 83,
           "exposure_score": 82,
-          "overall_score": 83
+          "sharpness_score": 100,
+          "resolution_score": 70
         },
-        "subject": "A supporting image",
-        "scene": "A supporting image.",
-        "recommended_placement": "visual story near the closest semantic theme",
-        "recommended_crop": "preserve the main subject",
-        "caption": "A supporting image.",
-        "subtitle": "",
         "visual_summary": "A supporting image.",
+        "vision_analyzed": false,
+        "importance_score": 60,
+        "recommended_crop": "preserve the main subject",
         "visible_subjects": [],
-        "possible_items": [],
-        "candidate_descriptions": [
-          "A supporting image"
-        ],
-        "confidence": 0.48,
-        "priority": 60,
-        "semantic_type": "supporting_gallery_image",
-        "alt_text": "A supporting image.",
         "semantic_category": "food_or_atmosphere",
-        "asset_id": "asset-1ca4ce1612",
         "caption_validation": {
           "safe": true,
           "filename_visible": false,
           "upload_order_visible": false,
           "source": "vision_or_context"
-        }
+        },
+        "recommended_placement": "visual story near the closest semantic theme",
+        "candidate_descriptions": [
+          "A supporting image"
+        ]
       },
       {
-        "field": "gallery",
         "src": "assets/gallery-8.jpg",
+        "field": "gallery",
+        "scene": "A supporting image.",
+        "caption": "A supporting image.",
+        "subject": "A supporting image",
+        "alt_text": "A supporting image.",
+        "asset_id": "asset-e1ba70bc69",
         "mimetype": "image/jpeg",
-        "vision_analyzed": false,
-        "importance_score": 59,
+        "priority": 59,
+        "subtitle": "",
+        "confidence": 0.48,
+        "semantic_type": "supporting_gallery_image",
+        "possible_items": [],
         "visual_quality": {
           "width": 1920,
           "height": 2879,
           "megapixels": 5.53,
-          "resolution_score": 100,
-          "sharpness_score": 34,
+          "overall_score": 77,
           "exposure_score": 99,
-          "overall_score": 77
+          "sharpness_score": 34,
+          "resolution_score": 100
         },
-        "subject": "A supporting image",
-        "scene": "A supporting image.",
-        "recommended_placement": "visual story near the closest semantic theme",
-        "recommended_crop": "preserve the main subject",
-        "caption": "A supporting image.",
-        "subtitle": "",
         "visual_summary": "A supporting image.",
+        "vision_analyzed": false,
+        "importance_score": 59,
+        "recommended_crop": "preserve the main subject",
         "visible_subjects": [],
-        "possible_items": [],
-        "candidate_descriptions": [
-          "A supporting image"
-        ],
-        "confidence": 0.48,
-        "priority": 59,
-        "semantic_type": "supporting_gallery_image",
-        "alt_text": "A supporting image.",
         "semantic_category": "food_or_atmosphere",
-        "asset_id": "asset-e1ba70bc69",
         "caption_validation": {
           "safe": true,
           "filename_visible": false,
           "upload_order_visible": false,
           "source": "vision_or_context"
-        }
+        },
+        "recommended_placement": "visual story near the closest semantic theme",
+        "candidate_descriptions": [
+          "A supporting image"
+        ]
       },
       {
-        "field": "gallery",
         "src": "assets/gallery-1.jpg",
+        "field": "gallery",
+        "scene": "A supporting image.",
+        "caption": "A supporting image.",
+        "subject": "A supporting image",
+        "alt_text": "A supporting image.",
+        "asset_id": "asset-b6c875d881",
         "mimetype": "image/jpeg",
-        "vision_analyzed": false,
-        "importance_score": 56,
+        "priority": 56,
+        "subtitle": "",
+        "confidence": 0.48,
+        "semantic_type": "supporting_gallery_image",
+        "possible_items": [],
         "visual_quality": {
           "width": 1124,
           "height": 1443,
           "megapixels": 1.62,
-          "resolution_score": 71,
-          "sharpness_score": 45,
+          "overall_score": 65,
           "exposure_score": 85,
-          "overall_score": 65
+          "sharpness_score": 45,
+          "resolution_score": 71
         },
-        "subject": "A supporting image",
-        "scene": "A supporting image.",
-        "recommended_placement": "visual story near the closest semantic theme",
-        "recommended_crop": "preserve the main subject",
-        "caption": "A supporting image.",
-        "subtitle": "",
         "visual_summary": "A supporting image.",
+        "vision_analyzed": false,
+        "importance_score": 56,
+        "recommended_crop": "preserve the main subject",
         "visible_subjects": [],
-        "possible_items": [],
-        "candidate_descriptions": [
-          "A supporting image"
-        ],
-        "confidence": 0.48,
-        "priority": 56,
-        "semantic_type": "supporting_gallery_image",
-        "alt_text": "A supporting image.",
         "semantic_category": "food_or_atmosphere",
-        "asset_id": "asset-b6c875d881",
         "caption_validation": {
           "safe": true,
           "filename_visible": false,
           "upload_order_visible": false,
           "source": "vision_or_context"
-        }
+        },
+        "recommended_placement": "visual story near the closest semantic theme",
+        "candidate_descriptions": [
+          "A supporting image"
+        ]
       },
       {
-        "field": "gallery",
         "src": "assets/gallery-2.jpg",
+        "field": "gallery",
+        "scene": "A supporting image.",
+        "caption": "A supporting image.",
+        "subject": "A supporting image",
+        "alt_text": "A supporting image.",
+        "asset_id": "asset-f151f98380",
         "mimetype": "image/jpeg",
-        "vision_analyzed": false,
-        "importance_score": 55,
+        "priority": 55,
+        "subtitle": "",
+        "confidence": 0.48,
+        "semantic_type": "supporting_gallery_image",
+        "possible_items": [],
         "visual_quality": {
           "width": 1125,
           "height": 1286,
           "megapixels": 1.45,
-          "resolution_score": 67,
-          "sharpness_score": 28,
+          "overall_score": 58,
           "exposure_score": 89,
-          "overall_score": 58
+          "sharpness_score": 28,
+          "resolution_score": 67
         },
-        "subject": "A supporting image",
-        "scene": "A supporting image.",
-        "recommended_placement": "visual story near the closest semantic theme",
-        "recommended_crop": "preserve the main subject",
-        "caption": "A supporting image.",
-        "subtitle": "",
         "visual_summary": "A supporting image.",
+        "vision_analyzed": false,
+        "importance_score": 55,
+        "recommended_crop": "preserve the main subject",
         "visible_subjects": [],
-        "possible_items": [],
-        "candidate_descriptions": [
-          "A supporting image"
-        ],
-        "confidence": 0.48,
-        "priority": 55,
-        "semantic_type": "supporting_gallery_image",
-        "alt_text": "A supporting image.",
         "semantic_category": "food_or_atmosphere",
-        "asset_id": "asset-f151f98380",
         "caption_validation": {
           "safe": true,
           "filename_visible": false,
           "upload_order_visible": false,
           "source": "vision_or_context"
-        }
+        },
+        "recommended_placement": "visual story near the closest semantic theme",
+        "candidate_descriptions": [
+          "A supporting image"
+        ]
       },
       {
-        "field": "gallery",
         "src": "assets/gallery-3.jpg",
+        "field": "gallery",
+        "scene": "A supporting image.",
+        "caption": "A supporting image.",
+        "subject": "A supporting image",
+        "alt_text": "A supporting image.",
+        "asset_id": "asset-2a138863f6",
         "mimetype": "image/jpeg",
-        "vision_analyzed": false,
-        "importance_score": 54,
+        "priority": 54,
+        "subtitle": "",
+        "confidence": 0.48,
+        "semantic_type": "supporting_gallery_image",
+        "possible_items": [],
         "visual_quality": {
           "width": 1125,
           "height": 632,
           "megapixels": 0.71,
-          "resolution_score": 49,
-          "sharpness_score": 51,
+          "overall_score": 55,
           "exposure_score": 77,
-          "overall_score": 55
+          "sharpness_score": 51,
+          "resolution_score": 49
         },
-        "subject": "A supporting image",
-        "scene": "A supporting image.",
-        "recommended_placement": "visual story near the closest semantic theme",
-        "recommended_crop": "preserve the main subject",
-        "caption": "A supporting image.",
-        "subtitle": "",
         "visual_summary": "A supporting image.",
+        "vision_analyzed": false,
+        "importance_score": 54,
+        "recommended_crop": "preserve the main subject",
         "visible_subjects": [],
-        "possible_items": [],
-        "candidate_descriptions": [
-          "A supporting image"
-        ],
-        "confidence": 0.48,
-        "priority": 54,
-        "semantic_type": "supporting_gallery_image",
-        "alt_text": "A supporting image.",
         "semantic_category": "food_or_atmosphere",
-        "asset_id": "asset-2a138863f6",
         "caption_validation": {
           "safe": true,
           "filename_visible": false,
           "upload_order_visible": false,
           "source": "vision_or_context"
-        }
+        },
+        "recommended_placement": "visual story near the closest semantic theme",
+        "candidate_descriptions": [
+          "A supporting image"
+        ]
       },
       {
-        "field": "gallery",
         "src": "assets/gallery-4.jpg",
+        "field": "gallery",
+        "scene": "A supporting image.",
+        "caption": "A supporting image.",
+        "subject": "A supporting image",
+        "alt_text": "A supporting image.",
+        "asset_id": "asset-da54e632a5",
         "mimetype": "image/jpeg",
-        "vision_analyzed": false,
-        "importance_score": 54,
+        "priority": 54,
+        "subtitle": "",
+        "confidence": 0.48,
+        "semantic_type": "supporting_gallery_image",
+        "possible_items": [],
         "visual_quality": {
           "width": 1125,
           "height": 1420,
           "megapixels": 1.6,
-          "resolution_score": 70,
-          "sharpness_score": 17,
+          "overall_score": 57,
           "exposure_score": 96,
-          "overall_score": 57
+          "sharpness_score": 17,
+          "resolution_score": 70
         },
-        "subject": "A supporting image",
-        "scene": "A supporting image.",
-        "recommended_placement": "visual story near the closest semantic theme",
-        "recommended_crop": "preserve the main subject",
-        "caption": "A supporting image.",
-        "subtitle": "",
         "visual_summary": "A supporting image.",
+        "vision_analyzed": false,
+        "importance_score": 54,
+        "recommended_crop": "preserve the main subject",
         "visible_subjects": [],
-        "possible_items": [],
-        "candidate_descriptions": [
-          "A supporting image"
-        ],
-        "confidence": 0.48,
-        "priority": 54,
-        "semantic_type": "supporting_gallery_image",
-        "alt_text": "A supporting image.",
         "semantic_category": "food_or_atmosphere",
-        "asset_id": "asset-da54e632a5",
         "caption_validation": {
           "safe": true,
           "filename_visible": false,
           "upload_order_visible": false,
           "source": "vision_or_context"
-        }
+        },
+        "recommended_placement": "visual story near the closest semantic theme",
+        "candidate_descriptions": [
+          "A supporting image"
+        ]
       },
       {
-        "field": "gallery",
         "src": "assets/gallery-7.jpg",
+        "field": "gallery",
+        "scene": "A supporting image.",
+        "caption": "A supporting image.",
+        "subject": "A supporting image",
+        "alt_text": "A supporting image.",
+        "asset_id": "asset-394763d1b0",
         "mimetype": "image/jpeg",
-        "vision_analyzed": false,
-        "importance_score": 54,
+        "priority": 54,
+        "subtitle": "",
+        "confidence": 0.48,
+        "semantic_type": "supporting_gallery_image",
+        "possible_items": [],
         "visual_quality": {
           "width": 1125,
           "height": 1431,
           "megapixels": 1.61,
-          "resolution_score": 71,
-          "sharpness_score": 25,
+          "overall_score": 55,
           "exposure_score": 72,
-          "overall_score": 55
+          "sharpness_score": 25,
+          "resolution_score": 71
         },
-        "subject": "A supporting image",
-        "scene": "A supporting image.",
-        "recommended_placement": "visual story near the closest semantic theme",
-        "recommended_crop": "preserve the main subject",
-        "caption": "A supporting image.",
-        "subtitle": "",
         "visual_summary": "A supporting image.",
+        "vision_analyzed": false,
+        "importance_score": 54,
+        "recommended_crop": "preserve the main subject",
         "visible_subjects": [],
-        "possible_items": [],
-        "candidate_descriptions": [
-          "A supporting image"
-        ],
-        "confidence": 0.48,
-        "priority": 54,
-        "semantic_type": "supporting_gallery_image",
-        "alt_text": "A supporting image.",
         "semantic_category": "food_or_atmosphere",
-        "asset_id": "asset-394763d1b0",
         "caption_validation": {
           "safe": true,
           "filename_visible": false,
           "upload_order_visible": false,
           "source": "vision_or_context"
-        }
+        },
+        "recommended_placement": "visual story near the closest semantic theme",
+        "candidate_descriptions": [
+          "A supporting image"
+        ]
       },
       {
-        "field": "gallery",
         "src": "assets/gallery-6.jpg",
+        "field": "gallery",
+        "scene": "A supporting image.",
+        "caption": "A supporting image.",
+        "subject": "A supporting image",
+        "alt_text": "A supporting image.",
+        "asset_id": "asset-a3797ea881",
         "mimetype": "image/jpeg",
-        "vision_analyzed": false,
-        "importance_score": 53,
+        "priority": 53,
+        "subtitle": "",
+        "confidence": 0.48,
+        "semantic_type": "supporting_gallery_image",
+        "possible_items": [],
         "visual_quality": {
           "width": 1125,
           "height": 1403,
           "megapixels": 1.58,
-          "resolution_score": 70,
-          "sharpness_score": 22,
+          "overall_score": 50,
           "exposure_score": 56,
-          "overall_score": 50
+          "sharpness_score": 22,
+          "resolution_score": 70
         },
-        "subject": "A supporting image",
-        "scene": "A supporting image.",
-        "recommended_placement": "visual story near the closest semantic theme",
-        "recommended_crop": "preserve the main subject",
-        "caption": "A supporting image.",
-        "subtitle": "",
         "visual_summary": "A supporting image.",
+        "vision_analyzed": false,
+        "importance_score": 53,
+        "recommended_crop": "preserve the main subject",
         "visible_subjects": [],
-        "possible_items": [],
-        "candidate_descriptions": [
-          "A supporting image"
-        ],
-        "confidence": 0.48,
-        "priority": 53,
-        "semantic_type": "supporting_gallery_image",
-        "alt_text": "A supporting image.",
         "semantic_category": "food_or_atmosphere",
-        "asset_id": "asset-a3797ea881",
         "caption_validation": {
           "safe": true,
           "filename_visible": false,
           "upload_order_visible": false,
           "source": "vision_or_context"
-        }
+        },
+        "recommended_placement": "visual story near the closest semantic theme",
+        "candidate_descriptions": [
+          "A supporting image"
+        ]
       }
     ],
     "resume": []
@@ -1806,6 +1812,22 @@
       "layout_hint": "list-detail"
     },
     {
+      "id": "recognition",
+      "label": "Recognition",
+      "purpose": "Show grounded achievements without inflating them.",
+      "visitor_question_answered": "What should I know about Recognition?",
+      "evidence_ids": [
+        "ev-68e60a1ab43e"
+      ],
+      "content_notes": [
+        "Reviews & Recognition \"I was pleasantly surprised by this café."
+      ],
+      "content_items": [],
+      "content_kind": "",
+      "composition_primitive": "evidence-cards",
+      "layout_hint": "card-grid"
+    },
+    {
       "id": "highlights",
       "label": "What Makes the Experience Different",
       "purpose": "Present grounded distinctions as useful trust evidence.",
@@ -1827,6 +1849,60 @@
       "layout_hint": "card-grid"
     },
     {
+      "id": "visual-story",
+      "label": "A Closer Look",
+      "purpose": "Use the supplied, semantically understood images to deepen the story.",
+      "visitor_question_answered": "What should I know about A Closer Look?",
+      "evidence_ids": [
+        "ev-cf4141452b6b",
+        "ev-aea6af14271c",
+        "ev-42ce0341664e",
+        "ev-ab720a08751b"
+      ],
+      "content_notes": [
+        "Coffee remains at the center of the brand, with premium beans and careful craftsmanship used across classic espresso drinks, signature cappuccinos, and seasonal specialties.",
+        "Signature Cappuccinos - Rich, carefully crafted cappuccinos that are frequently praised by guests.",
+        "Premium Espresso Beverages - Classic espresso-based drinks prepared with premium beans.",
+        "Gourmet Breakfast Selections - Refined breakfast options inspired by European café traditions."
+      ],
+      "content_items": [],
+      "content_kind": "",
+      "composition_primitive": "layered-card-cluster",
+      "layout_hint": "card-grid"
+    },
+    {
+      "id": "signature-offerings",
+      "label": "Coffee, Cuisine & Favorites",
+      "purpose": "Synthesize the strongest verified offerings into useful choices.",
+      "visitor_question_answered": "What can I choose or experience?",
+      "evidence_ids": [
+        "ev-af9dde84e7a4",
+        "ev-fc9dae044988",
+        "ev-26cdc48b93f1",
+        "ev-097929aac458",
+        "ev-cf4141452b6b",
+        "ev-42ce0341664e",
+        "ev-ab720a08751b",
+        "ev-837fd946694e",
+        "ev-9d43044597b3",
+        "ev-1e249cc33a18",
+        "ev-aa0054c8a040",
+        "ev-9704e731218f",
+        "ev-81e6172e518e"
+      ],
+      "content_notes": [
+        "Isa Coffee Lounge Isa Coffee Lounge Restaurant / Café .",
+        "Today, Isa is known for premium coffee, carefully prepared café dishes, attentive service, and an atmosphere guests look forward to returning to.",
+        "Artisan Pastries - Fresh pastry selections designed to pair with coffee.",
+        "The coffee was generously sized, and the atmosphere was cozy and beautifully decorated.",
+        "Isa Coffee Lounge | \"The cappuccino was outstanding, the strawberry cake melted in my mouth, and the experience exceeded my expectations.\" - Wesley Cavalcante Soares Audience, Goals & Tone The website should appeal to professionals, entrepreneurs, travelers,."
+      ],
+      "content_items": [],
+      "content_kind": "",
+      "composition_primitive": "feature-row",
+      "layout_hint": "list-detail"
+    },
+    {
       "id": "the-experience",
       "label": "The Experience",
       "purpose": "Turn verified atmosphere and experience details into a coherent story.",
@@ -1843,74 +1919,6 @@
       "content_kind": "",
       "composition_primitive": "story-chapter",
       "layout_hint": "case-study"
-    },
-    {
-      "id": "recognition",
-      "label": "Recognition",
-      "purpose": "Show grounded achievements without inflating them.",
-      "visitor_question_answered": "What verified recognition supports this work?",
-      "evidence_ids": [
-        "ev-68e60a1ab43e"
-      ],
-      "content_notes": [
-        "Reviews & Recognition \"I was pleasantly surprised by this café."
-      ],
-      "content_items": [],
-      "content_kind": "",
-      "composition_primitive": "metric-strip",
-      "layout_hint": "stat-row"
-    },
-    {
-      "id": "signature-offerings",
-      "label": "Coffee, Cuisine & Favorites",
-      "purpose": "Synthesize the strongest verified offerings into useful choices.",
-      "visitor_question_answered": "What can I choose or experience?",
-      "evidence_ids": [
-        "ev-af9dde84e7a4",
-        "ev-fc9dae044988",
-        "ev-26cdc48b93f1",
-        "ev-097929aac458",
-        "ev-cf4141452b6b",
-        "ev-df462cdf4ca3",
-        "ev-42ce0341664e",
-        "ev-3832a44d905b",
-        "ev-ab720a08751b",
-        "ev-837fd946694e",
-        "ev-9d43044597b3",
-        "ev-1e249cc33a18",
-        "ev-aa0054c8a040",
-        "ev-9704e731218f",
-        "ev-81e6172e518e"
-      ],
-      "content_notes": [
-        "Isa Coffee Lounge Isa Coffee Lounge Restaurant / Café .",
-        "Today, Isa is known for premium coffee, carefully prepared café dishes, attentive service, and an atmosphere guests look forward to returning to.",
-        "Coffee remains at the center of the brand, with premium beans and careful craftsmanship used across classic espresso drinks, signature cappuccinos, and seasonal specialties.",
-        "Coffee & Beverages.",
-        "Premium Espresso Beverages - Classic espresso-based drinks prepared with premium beans.",
-        "Breakfast & Savory.",
-        "Gourmet Breakfast Selections - Refined breakfast options inspired by European café traditions.",
-        "Artisan Pastries - Fresh pastry selections designed to pair with coffee."
-      ],
-      "content_items": [],
-      "content_kind": "",
-      "composition_primitive": "feature-row",
-      "layout_hint": "list-detail"
-    },
-    {
-      "id": "visual-story",
-      "label": "A Closer Look",
-      "purpose": "Use the supplied, semantically understood images to deepen the story.",
-      "visitor_question_answered": "What does this place or work look like?",
-      "evidence_ids": [],
-      "content_notes": [
-        "The brand mark.",
-        "A supporting image."
-      ],
-      "content_items": [],
-      "content_kind": "",
-      "composition_primitive": "image-mosaic",
-      "layout_hint": "media-gallery"
     },
     {
       "id": "contact",
@@ -1936,7 +1944,7 @@
     "description": "Isa Coffee Lounge Isa Coffee Lounge Restaurant / Café ."
   },
   "contact": {
-    "email": "Instagram@isa.coffee.lounge",
+    "email": "",
     "phone": "",
     "location": "",
     "linkedin": "",
@@ -1950,17 +1958,17 @@
     "delivery": "",
     "catering": "",
     "directions": "",
-    "instagram": "",
+    "instagram": "https://instagram.com/isa.coffee.lounge",
     "gift_card": "",
     "reservation": "",
     "product": "",
     "resume": ""
   },
   "architecture_trace": {
-    "raw_plan_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
-    "normalized_plan_hash": "1a4dc2b726cd027c988384bbc0829032d1a8426a12585c8716aa9b9813103ae9",
-    "semantic_graph_hash": "8840cefd26989f3cd4b1b264fe5cac321c1a89fb6d7f2d0c483fcdd1f6a4ca21",
-    "component_tree_hash": "871b090e3721465561f4e4578f99ac0014ed41dbb4aa44940ddf6e8b9c1b53c3",
+    "raw_plan_hash": "a1550b7d2c2e19c68629018f1e979b03f498cdbf8ab3543f44328be3efb37581",
+    "normalized_plan_hash": "416d48100e8ba08ab62b02491491a04c72016f53d455101fdfcb8556a99c4704",
+    "semantic_graph_hash": "dab0d0b7b58d5329556a62b0152a30f884a78bd9abd331b7b619f947c955e6be",
+    "component_tree_hash": "05bb640c3be86a24ada0312e21886a26c75898a853bbe795bea84253d4362199",
     "model_output_overwritten": false,
     "transformations": [
       "semantic_graph",
@@ -1970,8 +1978,7 @@
       "design_grammar",
       "section_graph",
       "component_tree"
-    ],
-    "model_usage_hash": "d1ef63e1690c09f8290b733c8627dbb8665d2da6ef82673c149e148f5a0b6e70"
+    ]
   },
   "semantic_graph": {
     "version": 1,
@@ -2056,18 +2063,6 @@
         "relationships": []
       },
       {
-        "id": "ev-df462cdf4ca3",
-        "value": "Coffee & Beverages.",
-        "fact_type": "offering",
-        "source": "uploaded_source",
-        "source_url": "",
-        "confidence": 1,
-        "authority": 0.82,
-        "importance": 0.5,
-        "public": true,
-        "relationships": []
-      },
-      {
         "id": "ev-aea6af14271c",
         "value": "Signature Cappuccinos - Rich, carefully crafted cappuccinos that are frequently praised by guests.",
         "fact_type": "identity_or_story",
@@ -2087,19 +2082,7 @@
         "source_url": "",
         "confidence": 1,
         "authority": 0.82,
-        "importance": 0.6,
-        "public": true,
-        "relationships": []
-      },
-      {
-        "id": "ev-3832a44d905b",
-        "value": "Breakfast & Savory.",
-        "fact_type": "offering",
-        "source": "uploaded_source",
-        "source_url": "",
-        "confidence": 1,
-        "authority": 0.82,
-        "importance": 0.5,
+        "importance": 0.61,
         "public": true,
         "relationships": []
       },
@@ -2111,7 +2094,7 @@
         "source_url": "",
         "confidence": 1,
         "authority": 0.82,
-        "importance": 0.59,
+        "importance": 0.6,
         "public": true,
         "relationships": []
       },
@@ -2123,7 +2106,7 @@
         "source_url": "",
         "confidence": 1,
         "authority": 0.82,
-        "importance": 0.59,
+        "importance": 0.6,
         "public": true,
         "relationships": []
       },
@@ -2135,7 +2118,7 @@
         "source_url": "",
         "confidence": 1,
         "authority": 0.82,
-        "importance": 0.5,
+        "importance": 0.59,
         "public": true,
         "relationships": []
       },
@@ -2147,7 +2130,7 @@
         "source_url": "",
         "confidence": 1,
         "authority": 0.82,
-        "importance": 0.57,
+        "importance": 0.59,
         "public": true,
         "relationships": []
       },
@@ -2159,7 +2142,7 @@
         "source_url": "",
         "confidence": 1,
         "authority": 0.82,
-        "importance": 0.57,
+        "importance": 0.58,
         "public": true,
         "relationships": []
       },
@@ -2171,7 +2154,7 @@
         "source_url": "",
         "confidence": 1,
         "authority": 0.82,
-        "importance": 0.56,
+        "importance": 0.57,
         "public": true,
         "relationships": []
       },
@@ -2183,7 +2166,7 @@
         "source_url": "",
         "confidence": 1,
         "authority": 0.82,
-        "importance": 0.56,
+        "importance": 0.57,
         "public": true,
         "relationships": []
       },
@@ -2195,7 +2178,7 @@
         "source_url": "",
         "confidence": 1,
         "authority": 0.82,
-        "importance": 0.55,
+        "importance": 0.56,
         "public": true,
         "relationships": []
       },
@@ -2207,7 +2190,7 @@
         "source_url": "",
         "confidence": 1,
         "authority": 0.82,
-        "importance": 0.55,
+        "importance": 0.56,
         "public": true,
         "relationships": []
       },
@@ -2217,9 +2200,9 @@
         "fact_type": "identity_or_story",
         "source": "uploaded_source",
         "source_url": "",
-        "confidence": 1,
+        "confidence": 0.9,
         "authority": 0.82,
-        "importance": 0.5,
+        "importance": 0.55,
         "public": true,
         "relationships": []
       },
@@ -2231,7 +2214,7 @@
         "source_url": "",
         "confidence": 1,
         "authority": 0.82,
-        "importance": 0.54,
+        "importance": 0.55,
         "public": true,
         "relationships": []
       },
@@ -2243,7 +2226,7 @@
         "source_url": "",
         "confidence": 1,
         "authority": 0.82,
-        "importance": 0.53,
+        "importance": 0.54,
         "public": true,
         "relationships": []
       },
@@ -2255,7 +2238,7 @@
         "source_url": "",
         "confidence": 1,
         "authority": 0.82,
-        "importance": 0.53,
+        "importance": 0.54,
         "public": true,
         "relationships": []
       },
@@ -2265,9 +2248,9 @@
         "fact_type": "identity_or_story",
         "source": "uploaded_source",
         "source_url": "",
-        "confidence": 1,
+        "confidence": 0.8,
         "authority": 0.82,
-        "importance": 0.5,
+        "importance": 0.53,
         "public": true,
         "relationships": []
       },
@@ -2279,7 +2262,7 @@
         "source_url": "",
         "confidence": 1,
         "authority": 0.82,
-        "importance": 0.52,
+        "importance": 0.53,
         "public": true,
         "relationships": []
       },
@@ -2291,7 +2274,7 @@
         "source_url": "",
         "confidence": 1,
         "authority": 0.82,
-        "importance": 0.51,
+        "importance": 0.52,
         "public": true,
         "relationships": []
       },
@@ -2303,7 +2286,7 @@
         "source_url": "",
         "confidence": 1,
         "authority": 0.82,
-        "importance": 0.51,
+        "importance": 0.52,
         "public": true,
         "relationships": []
       }
@@ -2315,9 +2298,7 @@
         "ev-26cdc48b93f1",
         "ev-097929aac458",
         "ev-cf4141452b6b",
-        "ev-df462cdf4ca3",
         "ev-42ce0341664e",
-        "ev-3832a44d905b",
         "ev-ab720a08751b",
         "ev-837fd946694e",
         "ev-9d43044597b3",
@@ -2358,7 +2339,7 @@
           "The menu includes Coffee & Beverages."
         ],
         "verified_link": "",
-        "contact_path": "Instagram@isa.coffee.lounge",
+        "contact_path": "#contact",
         "evidence": [
           {
             "value": "The menu includes Coffee & Beverages.",
@@ -2451,7 +2432,12 @@
         "confidence": 0.82
       }
     ],
-    "links": [],
+    "links": [
+      {
+        "role": "instagram",
+        "url": "https://instagram.com/isa.coffee.lounge"
+      }
+    ],
     "audience_groups": [],
     "unresolved_conflicts": [],
     "enrichment": {
@@ -2495,9 +2481,7 @@
           "ev-26cdc48b93f1",
           "ev-097929aac458",
           "ev-cf4141452b6b",
-          "ev-df462cdf4ca3",
           "ev-42ce0341664e",
-          "ev-3832a44d905b",
           "ev-ab720a08751b",
           "ev-837fd946694e",
           "ev-9d43044597b3",
@@ -2584,7 +2568,7 @@
             "title": "Located in Recife's thriving business district, the café welcomes professionals,...",
             "description": "Located in Recife's thriving business district, the café welcomes professionals, entrepreneurs, travelers, and local guests into a warm, elegant setting designed for breakfast, meetings, focused work, relaxation, and social gatherings.",
             "details": [
-              "Located in Recife's thriving business district, the café welcomes professionals, entrepreneurs, travelers, and local guests into a warm, elegant setting designed for breakfast, meetings, focused work, relaxation, and."
+              "Located in Recife's thriving business district, the café welcomes professionals, entrepreneurs, travelers, and local guests into a warm, elegant setting designed for breakfast,..."
             ],
             "evidence_excerpt": "Located in Recife's thriving business district, the café welcomes professionals, entrepreneurs, travelers, and local guests into a warm, elegant setting designed for breakfast, meetings, focused work, relaxation, and."
           },
@@ -2611,56 +2595,6 @@
         "requested": true
       },
       {
-        "id": "signature-offerings",
-        "label": "Coffee, Cuisine & Favorites",
-        "purpose": "Synthesize the strongest verified offerings into useful choices.",
-        "visitor_question_answered": "What can I choose or experience?",
-        "evidence_ids": [
-          "ev-af9dde84e7a4",
-          "ev-fc9dae044988",
-          "ev-26cdc48b93f1",
-          "ev-097929aac458",
-          "ev-cf4141452b6b",
-          "ev-df462cdf4ca3",
-          "ev-42ce0341664e",
-          "ev-3832a44d905b",
-          "ev-ab720a08751b",
-          "ev-837fd946694e",
-          "ev-9d43044597b3",
-          "ev-1e249cc33a18",
-          "ev-aa0054c8a040",
-          "ev-9704e731218f",
-          "ev-81e6172e518e"
-        ],
-        "notes": [
-          "Isa Coffee Lounge Isa Coffee Lounge Restaurant / Café .",
-          "Isa Coffee Lounge was created as a sophisticated destination where exceptional coffee, refined food, and meaningful conversation come together.",
-          "Located in Recife's thriving business district, the café welcomes professionals, entrepreneurs, travelers, and local guests into a warm, elegant setting designed for breakfast, meetings, focused work, relaxation, and social gatherings.",
-          "Today, Isa is known for premium coffee, carefully prepared café dishes, attentive service, and an atmosphere guests look forward to returning to.",
-          "Coffee remains at the center of the brand, with premium beans and careful craftsmanship used across classic espresso drinks, signature cappuccinos, and seasonal specialties.",
-          "Coffee & Beverages.",
-          "Premium Espresso Beverages - Classic espresso-based drinks prepared with premium beans.",
-          "Breakfast & Savory.",
-          "Gourmet Breakfast Selections - Refined breakfast options inspired by European café traditions.",
-          "Artisan Pastries - Fresh pastry selections designed to pair with coffee."
-        ],
-        "content_items": [],
-        "content_kind": "",
-        "content_mode": "catalog-group",
-        "visual_mode": "feature-row",
-        "preferred_primitives": [
-          "catalog-group",
-          "feature-row",
-          "image-mosaic"
-        ],
-        "importance": 0.94,
-        "conversion_value": 0.9,
-        "redundancy_score": 0.342,
-        "include": true,
-        "reason": "Supported by ranked evidence and a visitor intent.",
-        "requested": false
-      },
-      {
         "id": "the-experience",
         "label": "The Experience",
         "purpose": "Turn verified atmosphere and experience details into a coherent story.",
@@ -2684,33 +2618,7 @@
         ],
         "importance": 0.84,
         "conversion_value": 0.66,
-        "redundancy_score": 0.231,
-        "include": true,
-        "reason": "Supported by ranked evidence and a visitor intent.",
-        "requested": false
-      },
-      {
-        "id": "visual-story",
-        "label": "A Closer Look",
-        "purpose": "Use the supplied, semantically understood images to deepen the story.",
-        "visitor_question_answered": "What does this place or work look like?",
-        "evidence_ids": [],
-        "notes": [
-          "The brand mark.",
-          "A supporting image."
-        ],
-        "content_items": [],
-        "content_kind": "",
-        "content_mode": "image-mosaic",
-        "visual_mode": "horizontal-scroller",
-        "preferred_primitives": [
-          "image-mosaic",
-          "horizontal-scroller",
-          "full-bleed-media"
-        ],
-        "importance": 0.72,
-        "conversion_value": 0.42,
-        "redundancy_score": 0,
+        "redundancy_score": 0.115,
         "include": true,
         "reason": "Supported by ranked evidence and a visitor intent.",
         "requested": false
@@ -2719,7 +2627,7 @@
         "id": "recognition",
         "label": "Recognition",
         "purpose": "Show grounded achievements without inflating them.",
-        "visitor_question_answered": "What verified recognition supports this work?",
+        "visitor_question_answered": "What should I know about Recognition?",
         "evidence_ids": [
           "ev-68e60a1ab43e"
         ],
@@ -2728,18 +2636,100 @@
         ],
         "content_items": [],
         "content_kind": "",
-        "content_mode": "metric-strip",
-        "visual_mode": "evidence-cards",
+        "content_mode": "editorial-text",
+        "visual_mode": "editorial-text",
         "preferred_primitives": [
           "metric-strip",
-          "evidence-cards"
+          "evidence-cards",
+          "feature-row"
         ],
-        "importance": 0.68,
-        "conversion_value": 0.42,
+        "importance": 0.82,
+        "conversion_value": 0.5,
         "redundancy_score": 0,
+        "include": true,
+        "reason": "Preserved from the model-authored semantic plan.",
+        "requested": true
+      },
+      {
+        "id": "signature-offerings",
+        "label": "Coffee, Cuisine & Favorites",
+        "purpose": "Synthesize the strongest verified offerings into useful choices.",
+        "visitor_question_answered": "What can I choose or experience?",
+        "evidence_ids": [
+          "ev-af9dde84e7a4",
+          "ev-fc9dae044988",
+          "ev-26cdc48b93f1",
+          "ev-097929aac458",
+          "ev-cf4141452b6b",
+          "ev-42ce0341664e",
+          "ev-ab720a08751b",
+          "ev-837fd946694e",
+          "ev-9d43044597b3",
+          "ev-1e249cc33a18",
+          "ev-aa0054c8a040",
+          "ev-9704e731218f",
+          "ev-81e6172e518e"
+        ],
+        "notes": [
+          "Isa Coffee Lounge Isa Coffee Lounge Restaurant / Café .",
+          "Isa Coffee Lounge was created as a sophisticated destination where exceptional coffee, refined food, and meaningful conversation come together.",
+          "Located in Recife's thriving business district, the café welcomes professionals, entrepreneurs, travelers, and local guests into a warm, elegant setting designed for breakfast, meetings, focused work, relaxation, and social gatherings.",
+          "Today, Isa is known for premium coffee, carefully prepared café dishes, attentive service, and an atmosphere guests look forward to returning to.",
+          "Coffee remains at the center of the brand, with premium beans and careful craftsmanship used across classic espresso drinks, signature cappuccinos, and seasonal specialties.",
+          "Premium Espresso Beverages - Classic espresso-based drinks prepared with premium beans.",
+          "Gourmet Breakfast Selections - Refined breakfast options inspired by European café traditions.",
+          "Artisan Pastries - Fresh pastry selections designed to pair with coffee.",
+          "The coffee was generously sized, and the atmosphere was cozy and beautifully decorated.",
+          "Isa Coffee Lounge | \"The cappuccino was outstanding, the strawberry cake melted in my mouth, and the experience exceeded my expectations.\" - Wesley Cavalcante Soares Audience, Goals & Tone The website should appeal to professionals, entrepreneurs, travelers,."
+        ],
+        "content_items": [],
+        "content_kind": "",
+        "content_mode": "catalog-group",
+        "visual_mode": "feature-row",
+        "preferred_primitives": [
+          "catalog-group",
+          "feature-row",
+          "image-mosaic"
+        ],
+        "importance": 0.94,
+        "conversion_value": 0.9,
+        "redundancy_score": 0.327,
         "include": true,
         "reason": "Supported by ranked evidence and a visitor intent.",
         "requested": false
+      },
+      {
+        "id": "visual-story",
+        "label": "A Closer Look",
+        "purpose": "Use the supplied, semantically understood images to deepen the story.",
+        "visitor_question_answered": "What should I know about A Closer Look?",
+        "evidence_ids": [
+          "ev-cf4141452b6b",
+          "ev-aea6af14271c",
+          "ev-42ce0341664e",
+          "ev-ab720a08751b"
+        ],
+        "notes": [
+          "Coffee remains at the center of the brand, with premium beans and careful craftsmanship used across classic espresso drinks, signature cappuccinos, and seasonal specialties.",
+          "Signature Cappuccinos - Rich, carefully crafted cappuccinos that are frequently praised by guests.",
+          "Premium Espresso Beverages - Classic espresso-based drinks prepared with premium beans.",
+          "Gourmet Breakfast Selections - Refined breakfast options inspired by European café traditions."
+        ],
+        "content_items": [],
+        "content_kind": "",
+        "content_mode": "editorial-text",
+        "visual_mode": "editorial-text",
+        "preferred_primitives": [
+          "layered-card-cluster",
+          "feature-row",
+          "editorial-text"
+        ],
+        "importance": 0.82,
+        "conversion_value": 0.5,
+        "redundancy_score": 0.861,
+        "include": true,
+        "reason": "Preserved from the model-authored semantic plan.",
+        "requested": true
       }
     ],
     "selected": [
@@ -2789,7 +2779,7 @@
             "title": "Located in Recife's thriving business district, the café welcomes professionals,...",
             "description": "Located in Recife's thriving business district, the café welcomes professionals, entrepreneurs, travelers, and local guests into a warm, elegant setting designed for breakfast, meetings, focused work, relaxation, and social gatherings.",
             "details": [
-              "Located in Recife's thriving business district, the café welcomes professionals, entrepreneurs, travelers, and local guests into a warm, elegant setting designed for breakfast, meetings, focused work, relaxation, and."
+              "Located in Recife's thriving business district, the café welcomes professionals, entrepreneurs, travelers, and local guests into a warm, elegant setting designed for breakfast,..."
             ],
             "evidence_excerpt": "Located in Recife's thriving business district, the café welcomes professionals, entrepreneurs, travelers, and local guests into a warm, elegant setting designed for breakfast, meetings, focused work, relaxation, and."
           },
@@ -2816,56 +2806,6 @@
         "requested": true
       },
       {
-        "id": "signature-offerings",
-        "label": "Coffee, Cuisine & Favorites",
-        "purpose": "Synthesize the strongest verified offerings into useful choices.",
-        "visitor_question_answered": "What can I choose or experience?",
-        "evidence_ids": [
-          "ev-af9dde84e7a4",
-          "ev-fc9dae044988",
-          "ev-26cdc48b93f1",
-          "ev-097929aac458",
-          "ev-cf4141452b6b",
-          "ev-df462cdf4ca3",
-          "ev-42ce0341664e",
-          "ev-3832a44d905b",
-          "ev-ab720a08751b",
-          "ev-837fd946694e",
-          "ev-9d43044597b3",
-          "ev-1e249cc33a18",
-          "ev-aa0054c8a040",
-          "ev-9704e731218f",
-          "ev-81e6172e518e"
-        ],
-        "notes": [
-          "Isa Coffee Lounge Isa Coffee Lounge Restaurant / Café .",
-          "Isa Coffee Lounge was created as a sophisticated destination where exceptional coffee, refined food, and meaningful conversation come together.",
-          "Located in Recife's thriving business district, the café welcomes professionals, entrepreneurs, travelers, and local guests into a warm, elegant setting designed for breakfast, meetings, focused work, relaxation, and social gatherings.",
-          "Today, Isa is known for premium coffee, carefully prepared café dishes, attentive service, and an atmosphere guests look forward to returning to.",
-          "Coffee remains at the center of the brand, with premium beans and careful craftsmanship used across classic espresso drinks, signature cappuccinos, and seasonal specialties.",
-          "Coffee & Beverages.",
-          "Premium Espresso Beverages - Classic espresso-based drinks prepared with premium beans.",
-          "Breakfast & Savory.",
-          "Gourmet Breakfast Selections - Refined breakfast options inspired by European café traditions.",
-          "Artisan Pastries - Fresh pastry selections designed to pair with coffee."
-        ],
-        "content_items": [],
-        "content_kind": "",
-        "content_mode": "catalog-group",
-        "visual_mode": "feature-row",
-        "preferred_primitives": [
-          "catalog-group",
-          "feature-row",
-          "image-mosaic"
-        ],
-        "importance": 0.94,
-        "conversion_value": 0.9,
-        "redundancy_score": 0.342,
-        "include": true,
-        "reason": "Supported by ranked evidence and a visitor intent.",
-        "requested": false
-      },
-      {
         "id": "the-experience",
         "label": "The Experience",
         "purpose": "Turn verified atmosphere and experience details into a coherent story.",
@@ -2889,33 +2829,7 @@
         ],
         "importance": 0.84,
         "conversion_value": 0.66,
-        "redundancy_score": 0.231,
-        "include": true,
-        "reason": "Supported by ranked evidence and a visitor intent.",
-        "requested": false
-      },
-      {
-        "id": "visual-story",
-        "label": "A Closer Look",
-        "purpose": "Use the supplied, semantically understood images to deepen the story.",
-        "visitor_question_answered": "What does this place or work look like?",
-        "evidence_ids": [],
-        "notes": [
-          "The brand mark.",
-          "A supporting image."
-        ],
-        "content_items": [],
-        "content_kind": "",
-        "content_mode": "image-mosaic",
-        "visual_mode": "horizontal-scroller",
-        "preferred_primitives": [
-          "image-mosaic",
-          "horizontal-scroller",
-          "full-bleed-media"
-        ],
-        "importance": 0.72,
-        "conversion_value": 0.42,
-        "redundancy_score": 0,
+        "redundancy_score": 0.115,
         "include": true,
         "reason": "Supported by ranked evidence and a visitor intent.",
         "requested": false
@@ -2924,7 +2838,7 @@
         "id": "recognition",
         "label": "Recognition",
         "purpose": "Show grounded achievements without inflating them.",
-        "visitor_question_answered": "What verified recognition supports this work?",
+        "visitor_question_answered": "What should I know about Recognition?",
         "evidence_ids": [
           "ev-68e60a1ab43e"
         ],
@@ -2933,18 +2847,100 @@
         ],
         "content_items": [],
         "content_kind": "",
-        "content_mode": "metric-strip",
-        "visual_mode": "evidence-cards",
+        "content_mode": "editorial-text",
+        "visual_mode": "editorial-text",
         "preferred_primitives": [
           "metric-strip",
-          "evidence-cards"
+          "evidence-cards",
+          "feature-row"
         ],
-        "importance": 0.68,
-        "conversion_value": 0.42,
+        "importance": 0.82,
+        "conversion_value": 0.5,
         "redundancy_score": 0,
+        "include": true,
+        "reason": "Preserved from the model-authored semantic plan.",
+        "requested": true
+      },
+      {
+        "id": "signature-offerings",
+        "label": "Coffee, Cuisine & Favorites",
+        "purpose": "Synthesize the strongest verified offerings into useful choices.",
+        "visitor_question_answered": "What can I choose or experience?",
+        "evidence_ids": [
+          "ev-af9dde84e7a4",
+          "ev-fc9dae044988",
+          "ev-26cdc48b93f1",
+          "ev-097929aac458",
+          "ev-cf4141452b6b",
+          "ev-42ce0341664e",
+          "ev-ab720a08751b",
+          "ev-837fd946694e",
+          "ev-9d43044597b3",
+          "ev-1e249cc33a18",
+          "ev-aa0054c8a040",
+          "ev-9704e731218f",
+          "ev-81e6172e518e"
+        ],
+        "notes": [
+          "Isa Coffee Lounge Isa Coffee Lounge Restaurant / Café .",
+          "Isa Coffee Lounge was created as a sophisticated destination where exceptional coffee, refined food, and meaningful conversation come together.",
+          "Located in Recife's thriving business district, the café welcomes professionals, entrepreneurs, travelers, and local guests into a warm, elegant setting designed for breakfast, meetings, focused work, relaxation, and social gatherings.",
+          "Today, Isa is known for premium coffee, carefully prepared café dishes, attentive service, and an atmosphere guests look forward to returning to.",
+          "Coffee remains at the center of the brand, with premium beans and careful craftsmanship used across classic espresso drinks, signature cappuccinos, and seasonal specialties.",
+          "Premium Espresso Beverages - Classic espresso-based drinks prepared with premium beans.",
+          "Gourmet Breakfast Selections - Refined breakfast options inspired by European café traditions.",
+          "Artisan Pastries - Fresh pastry selections designed to pair with coffee.",
+          "The coffee was generously sized, and the atmosphere was cozy and beautifully decorated.",
+          "Isa Coffee Lounge | \"The cappuccino was outstanding, the strawberry cake melted in my mouth, and the experience exceeded my expectations.\" - Wesley Cavalcante Soares Audience, Goals & Tone The website should appeal to professionals, entrepreneurs, travelers,."
+        ],
+        "content_items": [],
+        "content_kind": "",
+        "content_mode": "catalog-group",
+        "visual_mode": "feature-row",
+        "preferred_primitives": [
+          "catalog-group",
+          "feature-row",
+          "image-mosaic"
+        ],
+        "importance": 0.94,
+        "conversion_value": 0.9,
+        "redundancy_score": 0.327,
         "include": true,
         "reason": "Supported by ranked evidence and a visitor intent.",
         "requested": false
+      },
+      {
+        "id": "visual-story",
+        "label": "A Closer Look",
+        "purpose": "Use the supplied, semantically understood images to deepen the story.",
+        "visitor_question_answered": "What should I know about A Closer Look?",
+        "evidence_ids": [
+          "ev-cf4141452b6b",
+          "ev-aea6af14271c",
+          "ev-42ce0341664e",
+          "ev-ab720a08751b"
+        ],
+        "notes": [
+          "Coffee remains at the center of the brand, with premium beans and careful craftsmanship used across classic espresso drinks, signature cappuccinos, and seasonal specialties.",
+          "Signature Cappuccinos - Rich, carefully crafted cappuccinos that are frequently praised by guests.",
+          "Premium Espresso Beverages - Classic espresso-based drinks prepared with premium beans.",
+          "Gourmet Breakfast Selections - Refined breakfast options inspired by European café traditions."
+        ],
+        "content_items": [],
+        "content_kind": "",
+        "content_mode": "editorial-text",
+        "visual_mode": "editorial-text",
+        "preferred_primitives": [
+          "layered-card-cluster",
+          "feature-row",
+          "editorial-text"
+        ],
+        "importance": 0.82,
+        "conversion_value": 0.5,
+        "redundancy_score": 0.861,
+        "include": true,
+        "reason": "Preserved from the model-authored semantic plan.",
+        "requested": true
       }
     ],
     "rejected": []
@@ -3049,6 +3045,39 @@
         "background_zone": ""
       },
       {
+        "id": "recognition",
+        "label": "Recognition",
+        "purpose": "Show grounded achievements without inflating them.",
+        "visitor_question_answered": "What should I know about Recognition?",
+        "evidence_ids": [
+          "ev-68e60a1ab43e"
+        ],
+        "notes": [
+          "Reviews & Recognition \"I was pleasantly surprised by this café."
+        ],
+        "content_items": [],
+        "content_kind": "",
+        "content_mode": "editorial-text",
+        "visual_mode": "editorial-text",
+        "preferred_primitives": [
+          "metric-strip",
+          "evidence-cards",
+          "feature-row"
+        ],
+        "importance": 0.82,
+        "conversion_value": 0.5,
+        "redundancy_score": 0,
+        "include": true,
+        "reason": "Preserved from the model-authored semantic plan.",
+        "requested": true,
+        "order": 2,
+        "composition_primitive": "evidence-cards",
+        "renderer_primitive": "card-grid",
+        "variant": "stacked",
+        "separator": "none",
+        "background_zone": ""
+      },
+      {
         "id": "highlights",
         "label": "What Makes the Experience Different",
         "purpose": "Present grounded distinctions as useful trust evidence.",
@@ -3079,11 +3108,99 @@
         "include": true,
         "reason": "Preserved from the model-authored semantic plan.",
         "requested": true,
-        "order": 2,
+        "order": 3,
         "composition_primitive": "evidence-cards",
         "renderer_primitive": "card-grid",
         "variant": "split",
         "separator": "none",
+        "background_zone": "soft-radial"
+      },
+      {
+        "id": "visual-story",
+        "label": "A Closer Look",
+        "purpose": "Use the supplied, semantically understood images to deepen the story.",
+        "visitor_question_answered": "What should I know about A Closer Look?",
+        "evidence_ids": [
+          "ev-cf4141452b6b",
+          "ev-aea6af14271c",
+          "ev-42ce0341664e",
+          "ev-ab720a08751b"
+        ],
+        "notes": [
+          "Coffee remains at the center of the brand, with premium beans and careful craftsmanship used across classic espresso drinks, signature cappuccinos, and seasonal specialties.",
+          "Signature Cappuccinos - Rich, carefully crafted cappuccinos that are frequently praised by guests.",
+          "Premium Espresso Beverages - Classic espresso-based drinks prepared with premium beans.",
+          "Gourmet Breakfast Selections - Refined breakfast options inspired by European café traditions."
+        ],
+        "content_items": [],
+        "content_kind": "",
+        "content_mode": "editorial-text",
+        "visual_mode": "editorial-text",
+        "preferred_primitives": [
+          "layered-card-cluster",
+          "feature-row",
+          "editorial-text"
+        ],
+        "importance": 0.82,
+        "conversion_value": 0.5,
+        "redundancy_score": 0.861,
+        "include": true,
+        "reason": "Preserved from the model-authored semantic plan.",
+        "requested": true,
+        "order": 4,
+        "composition_primitive": "layered-card-cluster",
+        "renderer_primitive": "card-grid",
+        "variant": "bento",
+        "separator": "angled-plane",
+        "background_zone": ""
+      },
+      {
+        "id": "signature-offerings",
+        "label": "Coffee, Cuisine & Favorites",
+        "purpose": "Synthesize the strongest verified offerings into useful choices.",
+        "visitor_question_answered": "What can I choose or experience?",
+        "evidence_ids": [
+          "ev-af9dde84e7a4",
+          "ev-fc9dae044988",
+          "ev-26cdc48b93f1",
+          "ev-097929aac458",
+          "ev-cf4141452b6b",
+          "ev-42ce0341664e",
+          "ev-ab720a08751b",
+          "ev-837fd946694e",
+          "ev-9d43044597b3",
+          "ev-1e249cc33a18",
+          "ev-aa0054c8a040",
+          "ev-9704e731218f",
+          "ev-81e6172e518e"
+        ],
+        "notes": [
+          "Isa Coffee Lounge Isa Coffee Lounge Restaurant / Café .",
+          "Today, Isa is known for premium coffee, carefully prepared café dishes, attentive service, and an atmosphere guests look forward to returning to.",
+          "Artisan Pastries - Fresh pastry selections designed to pair with coffee.",
+          "The coffee was generously sized, and the atmosphere was cozy and beautifully decorated.",
+          "Isa Coffee Lounge | \"The cappuccino was outstanding, the strawberry cake melted in my mouth, and the experience exceeded my expectations.\" - Wesley Cavalcante Soares Audience, Goals & Tone The website should appeal to professionals, entrepreneurs, travelers,."
+        ],
+        "content_items": [],
+        "content_kind": "",
+        "content_mode": "catalog-group",
+        "visual_mode": "feature-row",
+        "preferred_primitives": [
+          "catalog-group",
+          "feature-row",
+          "image-mosaic"
+        ],
+        "importance": 0.94,
+        "conversion_value": 0.9,
+        "redundancy_score": 0.327,
+        "include": true,
+        "reason": "Supported by ranked evidence and a visitor intent.",
+        "requested": false,
+        "order": 5,
+        "composition_primitive": "feature-row",
+        "renderer_primitive": "list-detail",
+        "variant": "split",
+        "separator": "gradient-haze",
         "background_zone": ""
       },
       {
@@ -3110,144 +3227,26 @@
         ],
         "importance": 0.84,
         "conversion_value": 0.66,
-        "redundancy_score": 0.231,
-        "include": true,
-        "reason": "Supported by ranked evidence and a visitor intent.",
-        "requested": false,
-        "order": 3,
-        "composition_primitive": "story-chapter",
-        "renderer_primitive": "case-study",
-        "variant": "mosaic",
-        "separator": "fine-rule",
-        "background_zone": "aurora"
-      },
-      {
-        "id": "recognition",
-        "label": "Recognition",
-        "purpose": "Show grounded achievements without inflating them.",
-        "visitor_question_answered": "What verified recognition supports this work?",
-        "evidence_ids": [
-          "ev-68e60a1ab43e"
-        ],
-        "notes": [
-          "Reviews & Recognition \"I was pleasantly surprised by this café."
-        ],
-        "content_items": [],
-        "content_kind": "",
-        "content_mode": "metric-strip",
-        "visual_mode": "evidence-cards",
-        "preferred_primitives": [
-          "metric-strip",
-          "evidence-cards"
-        ],
-        "importance": 0.68,
-        "conversion_value": 0.42,
-        "redundancy_score": 0,
-        "include": true,
-        "reason": "Supported by ranked evidence and a visitor intent.",
-        "requested": false,
-        "order": 4,
-        "composition_primitive": "metric-strip",
-        "renderer_primitive": "stat-row",
-        "variant": "stacked",
-        "separator": "none",
-        "background_zone": ""
-      },
-      {
-        "id": "signature-offerings",
-        "label": "Coffee, Cuisine & Favorites",
-        "purpose": "Synthesize the strongest verified offerings into useful choices.",
-        "visitor_question_answered": "What can I choose or experience?",
-        "evidence_ids": [
-          "ev-af9dde84e7a4",
-          "ev-fc9dae044988",
-          "ev-26cdc48b93f1",
-          "ev-097929aac458",
-          "ev-cf4141452b6b",
-          "ev-df462cdf4ca3",
-          "ev-42ce0341664e",
-          "ev-3832a44d905b",
-          "ev-ab720a08751b",
-          "ev-837fd946694e",
-          "ev-9d43044597b3",
-          "ev-1e249cc33a18",
-          "ev-aa0054c8a040",
-          "ev-9704e731218f",
-          "ev-81e6172e518e"
-        ],
-        "notes": [
-          "Isa Coffee Lounge Isa Coffee Lounge Restaurant / Café .",
-          "Today, Isa is known for premium coffee, carefully prepared café dishes, attentive service, and an atmosphere guests look forward to returning to.",
-          "Coffee remains at the center of the brand, with premium beans and careful craftsmanship used across classic espresso drinks, signature cappuccinos, and seasonal specialties.",
-          "Coffee & Beverages.",
-          "Premium Espresso Beverages - Classic espresso-based drinks prepared with premium beans.",
-          "Breakfast & Savory.",
-          "Gourmet Breakfast Selections - Refined breakfast options inspired by European café traditions.",
-          "Artisan Pastries - Fresh pastry selections designed to pair with coffee."
-        ],
-        "content_items": [],
-        "content_kind": "",
-        "content_mode": "catalog-group",
-        "visual_mode": "feature-row",
-        "preferred_primitives": [
-          "catalog-group",
-          "feature-row",
-          "image-mosaic"
-        ],
-        "importance": 0.94,
-        "conversion_value": 0.9,
-        "redundancy_score": 0.342,
-        "include": true,
-        "reason": "Supported by ranked evidence and a visitor intent.",
-        "requested": false,
-        "order": 5,
-        "composition_primitive": "feature-row",
-        "renderer_primitive": "list-detail",
-        "variant": "split",
-        "separator": "gradient-haze",
-        "background_zone": ""
-      },
-      {
-        "id": "visual-story",
-        "label": "A Closer Look",
-        "purpose": "Use the supplied, semantically understood images to deepen the story.",
-        "visitor_question_answered": "What does this place or work look like?",
-        "evidence_ids": [],
-        "notes": [
-          "The brand mark.",
-          "A supporting image."
-        ],
-        "content_items": [],
-        "content_kind": "",
-        "content_mode": "image-mosaic",
-        "visual_mode": "horizontal-scroller",
-        "preferred_primitives": [
-          "image-mosaic",
-          "horizontal-scroller",
-          "full-bleed-media"
-        ],
-        "importance": 0.72,
-        "conversion_value": 0.42,
-        "redundancy_score": 0,
+        "redundancy_score": 0.115,
         "include": true,
         "reason": "Supported by ranked evidence and a visitor intent.",
         "requested": false,
         "order": 6,
-        "composition_primitive": "image-mosaic",
-        "renderer_primitive": "media-gallery",
-        "variant": "bento",
-        "separator": "angled-plane",
+        "composition_primitive": "story-chapter",
+        "renderer_primitive": "case-study",
+        "variant": "mosaic",
+        "separator": "fine-rule",
         "background_zone": ""
       }
     ],
     "sequence": [
       "hero",
       "services",
-      "highlights",
-      "the-experience",
       "recognition",
-      "signature-offerings",
+      "highlights",
       "visual-story",
+      "signature-offerings",
+      "the-experience",
       "contact"
     ],
     "rejected": []
@@ -3257,9 +3256,9 @@
     "category": "offering",
     "items": [
       "Coffee & Beverages",
-      "The menu includes Coffee & Beverages",
-      "Isa Coffee Lounge Isa Coffee Lounge",
-      "Isa Coffee Lounge was created as"
+      "Restaurant / Café",
+      "Premium Espresso Beverages",
+      "Gourmet Breakfast Selections"
     ]
   },
   "cta_plan": [
@@ -3286,22 +3285,12 @@
       "https://Websitecafeisa.com",
       "https://isa.co"
     ],
+    "elapsed_ms": 234,
     "visited_urls": [
       "https://isa.co"
     ],
-    "identity_verified": false,
     "accepted_facts": [],
-    "rejected_facts": [
-      {
-        "source_url": "https://Websitecafeisa.com",
-        "reason": "fetch failed"
-      },
-      {
-        "source_url": "https://isa.co",
-        "reason": "identity_mismatch"
-      }
-    ],
-    "elapsed_ms": 234
+    "identity_verified": false
   },
   "component_tree": {
     "type": "one-page-site",
@@ -3335,40 +3324,42 @@
       },
       {
         "type": "evidence-cards",
-        "section_id": "highlights",
-        "semantic_purpose": "Present grounded distinctions as useful trust evidence.",
-        "visitor_question_answered": "Why should I trust this particular approach?",
-        "layout": "card-grid",
-        "variant": "split",
-        "background_zone": "",
-        "item_count": 1,
-        "evidence_ids": []
-      },
-      {
-        "type": "story-chapter",
-        "section_id": "the-experience",
-        "semantic_purpose": "Turn verified atmosphere and experience details into a coherent story.",
-        "visitor_question_answered": "What will it feel like to spend time here?",
-        "layout": "case-study",
-        "variant": "mosaic",
-        "background_zone": "aurora",
-        "item_count": 2,
-        "evidence_ids": [
-          "ev-657205ea4a10",
-          "ev-1b833cd54052"
-        ]
-      },
-      {
-        "type": "metric-strip",
         "section_id": "recognition",
         "semantic_purpose": "Show grounded achievements without inflating them.",
-        "visitor_question_answered": "What verified recognition supports this work?",
-        "layout": "stat-row",
+        "visitor_question_answered": "What should I know about Recognition?",
+        "layout": "card-grid",
         "variant": "stacked",
         "background_zone": "",
         "item_count": 1,
         "evidence_ids": [
           "ev-68e60a1ab43e"
+        ]
+      },
+      {
+        "type": "evidence-cards",
+        "section_id": "highlights",
+        "semantic_purpose": "Present grounded distinctions as useful trust evidence.",
+        "visitor_question_answered": "Why should I trust this particular approach?",
+        "layout": "card-grid",
+        "variant": "split",
+        "background_zone": "soft-radial",
+        "item_count": 1,
+        "evidence_ids": []
+      },
+      {
+        "type": "layered-card-cluster",
+        "section_id": "visual-story",
+        "semantic_purpose": "Use the supplied, semantically understood images to deepen the story.",
+        "visitor_question_answered": "What should I know about A Closer Look?",
+        "layout": "card-grid",
+        "variant": "bento",
+        "background_zone": "",
+        "item_count": 4,
+        "evidence_ids": [
+          "ev-cf4141452b6b",
+          "ev-aea6af14271c",
+          "ev-42ce0341664e",
+          "ev-ab720a08751b"
         ]
       },
       {
@@ -3379,16 +3370,14 @@
         "layout": "list-detail",
         "variant": "split",
         "background_zone": "",
-        "item_count": 8,
+        "item_count": 5,
         "evidence_ids": [
           "ev-af9dde84e7a4",
           "ev-fc9dae044988",
           "ev-26cdc48b93f1",
           "ev-097929aac458",
           "ev-cf4141452b6b",
-          "ev-df462cdf4ca3",
           "ev-42ce0341664e",
-          "ev-3832a44d905b",
           "ev-ab720a08751b",
           "ev-837fd946694e",
           "ev-9d43044597b3",
@@ -3399,15 +3388,18 @@
         ]
       },
       {
-        "type": "image-mosaic",
-        "section_id": "visual-story",
-        "semantic_purpose": "Use the supplied, semantically understood images to deepen the story.",
-        "visitor_question_answered": "What does this place or work look like?",
-        "layout": "media-gallery",
-        "variant": "bento",
+        "type": "story-chapter",
+        "section_id": "the-experience",
+        "semantic_purpose": "Turn verified atmosphere and experience details into a coherent story.",
+        "visitor_question_answered": "What will it feel like to spend time here?",
+        "layout": "case-study",
+        "variant": "mosaic",
         "background_zone": "",
         "item_count": 2,
-        "evidence_ids": []
+        "evidence_ids": [
+          "ev-657205ea4a10",
+          "ev-1b833cd54052"
+        ]
       }
     ],
     "closing": {
@@ -3415,11 +3407,5 @@
       "section_id": "contact",
       "intent": "make-contact"
     }
-  },
-  "plan_generation": {
-    "recovery_used": false,
-    "accepted_traversal": 1,
-    "traversal_count": 1,
-    "traversal_limit": 2
   }
 }
