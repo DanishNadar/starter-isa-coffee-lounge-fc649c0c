@@ -1965,8 +1965,8 @@
     "resume": ""
   },
   "architecture_trace": {
-    "raw_plan_hash": "eeb230e6fd4ea57d83d3c6323708bae4b96445a56337ec3ba248e7746f6cf8d8",
-    "normalized_plan_hash": "748eb8969d847e2a1e324ac20021000dbe7db6aa32477a561c63f8360cedbcec",
+    "raw_plan_hash": "fb2df4c9c6ccb8f660ec78bde0814c38cda4aefa51568996798c48971b1b584b",
+    "normalized_plan_hash": "6464a830816057bbe40ba2a32d76ab0e74886030d1363ed454bb1706528c455c",
     "semantic_graph_hash": "dab0d0b7b58d5329556a62b0152a30f884a78bd9abd331b7b619f947c955e6be",
     "component_tree_hash": "05bb640c3be86a24ada0312e21886a26c75898a853bbe795bea84253d4362199",
     "model_output_overwritten": false,
@@ -3264,8 +3264,8 @@
   "cta_plan": [
     {
       "label": "Explore the Menu",
-      "href": "#services",
-      "target_id": "services",
+      "href": "#signature-offerings",
+      "target_id": "signature-offerings",
       "intent": "offering",
       "tier": "primary",
       "actionHint": "offering"
