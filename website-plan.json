@@ -1965,8 +1965,8 @@
     "resume": ""
   },
   "architecture_trace": {
-    "raw_plan_hash": "66d5f648d5038decef05f9a803e1cac718e47c9a2eef15a4b710575951360386",
-    "normalized_plan_hash": "9103d19fcd73f3a657ec8911855eb5d89ed3df5c8c2aa83a68c9b41831d221a8",
+    "raw_plan_hash": "1117947b07545e3ea1a6cf1340f356cf01ae34092a944ba890e36a70e06b5888",
+    "normalized_plan_hash": "f20604808e6ecce6db73c08f0c63e33e6353903503fe4b363e037db4a154a4b8",
     "semantic_graph_hash": "dab0d0b7b58d5329556a62b0152a30f884a78bd9abd331b7b619f947c955e6be",
     "component_tree_hash": "05bb640c3be86a24ada0312e21886a26c75898a853bbe795bea84253d4362199",
     "model_output_overwritten": false,
